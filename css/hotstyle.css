@@ -1031,6 +1031,7 @@ div.production-btn{
     align-items: flex-start;
     position: relative;
     margin-bottom: 42px;
+    margin-top: 128px;
 }
 .title-news:before{
     content: '';
@@ -1087,6 +1088,7 @@ div.production-btn{
     align-items: flex-start;
     justify-content: center;
     position: relative;
+    margin-bottom: 100px;
 }
 .news::before{
     content: '';
