@@ -1,0 +1,12 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.28 41.41">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-width:2;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M16.41 34c.38-.38.78-1 2-1h14.72c1.11 0 7.22-6.13 8-7 .75-.84 4.08-5.84 5-8-.58-.78-2.15-1.43-4-1-1.77.41-2.81 1.68-4 4l-4.58 2.38"/>
+    <path class="st0" d="M22.13 27h9c4 0 4-5 0-5h-6c-.83 0-2.4-2-3.72-2h-5c-1.35 0-3.03 1.1-4 2-1.5 1.5-4.14 4-4.14 4"/>
+    <path transform="rotate(-45.001 9.414 32)" class="st0" d="M5.88 24.22h7.07v15.56H5.88z"/>
+    <path class="st0" d="M6.41 29l2 2"/>
+    <circle class="st0" cx="21.63" cy="4.5" r="3.5"/>
+    <path class="st0" d="M31.63 17c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+    <path class="st0" d="M20.13 17l13-16"/>
+</svg>

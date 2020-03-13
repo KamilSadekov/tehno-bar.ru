@@ -1,0 +1,13 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.53 48.06">
+    <style>
+        .st0{stroke-linejoin:round}.st0,.st1,.st2{fill:none;stroke:#d02d26;stroke-width:2;stroke-miterlimit:10}.st2{stroke-linecap:round}
+    </style>
+    <path class="st0" d="M31.53 12l-2 4-4 2 4 2 2 4 2-4 4-2-4-2z"/>
+    <path class="st0" d="M38.53 1l-2 4-4 2 4 2 2 4 2-4 4-2-4-2z"/>
+    <path class="st1" d="M44.53 13v2"/>
+    <path class="st1" d="M44.53 17v2"/>
+    <path class="st1" d="M45.53 16h2"/>
+    <path class="st1" d="M41.53 16h2"/>
+    <path class="st2" d="M40.53 20v17h-33V12h19"/>
+    <path class="st2" d="M36.58 39.91l.37 2.96-32.74 4.07-3.09-24.81 3.83-.47"/>
+</svg>

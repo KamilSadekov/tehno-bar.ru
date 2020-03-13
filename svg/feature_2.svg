@@ -1,0 +1,17 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 42.27">
+    <style>
+        .st0{stroke-linecap:round}.st0,.st1{fill:none;stroke:#d02d26;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M37 24h-1c-2.54 0-6.8-3.43-6.8-3.43"/>
+    <path class="st0" d="M12.29 35.45S8.79 36.65 7 34c1.01-1.69 5-9 5-9l9-6 3.34.34"/>
+    <path class="st0" d="M8.18 41.27l5.44-2.65 2.2-1.62"/>
+    <path class="st0" d="M20 31l14.75-17c.74-.84.7-2.12-.09-2.91a2.14 2.14 0 0 0-3.09.08L13.59 31.43"/>
+    <path class="st0" d="M26 26v2c0 1.53-1.47 3-3 3h-8c-1.31 0-3 1.31-3 3s1 3 3 3h7c1.76 1.55 2.8 2 5 2h3c.93 0 2.26-.46 3.16-.71.89-.26 1.91-.29 2.84-.29h1"/>
+    <path class="st0" d="M37 22h7v17h-7z"/>
+    <path class="st1" d="M40 34v2"/>
+    <path class="st0" d="M9.9 35.72l-.71.81-1.01 4.74"/>
+    <path class="st1" d="M7 8l1.67 3.33L12 13l-3.33 1.67L7 18l-1.67-3.33L2 13l3.33-1.67z"/>
+    <path class="st1" d="M20 1l2 4 4 2-4 2-2 4-2-4-4-2 4-2z"/>
+    <path class="st1" d="M3 22v6"/>
+    <path class="st1" d="M6 25H0"/>
+</svg>

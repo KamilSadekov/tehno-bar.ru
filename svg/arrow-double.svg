@@ -1,0 +1,13 @@
+<svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 103.08 92.67">
+    <style>
+        .st0{clip-path:url(#SVGID_2_);fill:none;stroke:#e20514;stroke-width:15;stroke-miterlimit:10}
+    </style>
+    <defs>
+        <path id="SVGID_1_" d="M0 0h103.08v92.67H0z"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+        <use xlink:href="#SVGID_1_" overflow="visible"/>
+    </clipPath>
+    <path class="st0" d="M29.17-7.48L48 46.5l-18.83 53.98"/>
+    <path class="st0" d="M58.83-7.48L77.67 46.5l-18.84 53.98"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 44">
+    <style>
+        .st0{fill:none;stroke:#505050;stroke-width:2;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M1 1h41v42H1z"/>
+    <path class="st0" d="M.5 13h42"/>
+    <path class="st0" d="M21.5 1v43"/>
+</svg>

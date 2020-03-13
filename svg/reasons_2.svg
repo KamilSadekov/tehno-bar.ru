@@ -1,0 +1,23 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 46">
+    <style>
+        .st0{fill:none;stroke:#fff;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M22 0v8"/>
+    <path class="st0" d="M6.44 6.44l5.66 5.66"/>
+    <path class="st0" d="M0 22h8"/>
+    <path class="st0" d="M6.44 37.56l5.66-5.66"/>
+    <path class="st0" d="M37.56 37.56L31.9 31.9"/>
+    <path class="st0" d="M44 22h-8"/>
+    <path class="st0" d="M37.56 6.44L31.9 12.1"/>
+    <path class="st0" d="M26 44h-1l-1 1h-4l-1-1h-1"/>
+    <path class="st0" d="M16 38h12"/>
+    <path class="st0" d="M17 41h10"/>
+    <path class="st0" d="M15.11 5.37l1.53 3.7"/>
+    <path class="st0" d="M5.37 15.11l3.7 1.53"/>
+    <path class="st0" d="M5.37 28.89l3.7-1.53"/>
+    <path class="st0" d="M38.63 28.89l-3.7-1.53"/>
+    <path class="st0" d="M38.63 15.11l-3.7 1.53"/>
+    <path class="st0" d="M28.89 5.37l-1.53 3.7"/>
+    <path class="st0" d="M24 22l.14-6.71L16 25h4v7l8-10z"/>
+    <path class="st0" d="M28 36v-2.08c0-1.88.5-3.42 1.56-4.48C30.62 28.38 33 26.09 33 22c0-6.08-4.92-11-11-11s-11 4.92-11 11c0 4.09 2.38 6.38 3.44 7.44C15.5 30.5 16 32.04 16 33.92V36"/>
+</svg>

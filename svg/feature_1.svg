@@ -1,0 +1,24 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 46">
+    <style>
+        .st0{fill:none;stroke:#d02d26;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M22 0v8"/>
+    <path class="st0" d="M6.44 6.44l5.66 5.66"/>
+    <path class="st0" d="M0 22h8"/>
+    <path class="st0" d="M6.44 37.56l5.66-5.66"/>
+    <path class="st0" d="M37.56 37.56L31.9 31.9"/>
+    <path class="st0" d="M44 22h-8"/>
+    <path class="st0" d="M37.56 6.44L31.9 12.1"/>
+    <path class="st0" d="M26 44h-1l-1 1h-4l-1-1h-1"/>
+    <path class="st0" d="M16 38h12"/>
+    <path class="st0" d="M17 41h10"/>
+    <path class="st0" d="M27 36v-2c0-1.81.63-3.47 1.88-4.75C30.77 27.32 32 24.94 32 22c0-5.52-4.48-10-10-10s-10 4.48-10 10c0 2.94 1.23 5.32 3.12 7.25C16.37 30.53 17 32.19 17 34v2"/>
+    <path class="st0" d="M22 36v-8"/>
+    <path class="st0" d="M20 26l2 2 2-2"/>
+    <path class="st0" d="M15.11 5.37l1.53 3.7"/>
+    <path class="st0" d="M5.37 15.11l3.7 1.53"/>
+    <path class="st0" d="M5.37 28.89l3.7-1.53"/>
+    <path class="st0" d="M38.63 28.89l-3.7-1.53"/>
+    <path class="st0" d="M38.63 15.11l-3.7 1.53"/>
+    <path class="st0" d="M28.89 5.37l-1.53 3.7"/>
+</svg>

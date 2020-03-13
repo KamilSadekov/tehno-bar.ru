@@ -1,0 +1,13 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 45">
+    <style>
+        .st0{fill:none;stroke:#505050;stroke-width:2;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M28 17V5H3v28h25v-4"/>
+    <path class="st0" d="M38 14c-2.29 0-4-1.92-4-4.29V8.29C34 5.92 35.71 4 38 4s4 1.92 4 4.29v1.43c0 2.36-1.71 4.28-4 4.28z"/>
+    <path class="st0" d="M33 45V24s-3.25 2-4 2-2.33-.69-4-2c-.73-.57-1.58-1.29-2.38-2.07-1.12-1.08.06-2.93 1.52-2.38 1.56.59 3.14 1.18 3.86 1.45 1.5-1.56 3.06-4 7-4h7c3.58 0 5 1.51 5 6v7c0 2.15-.85 4-3 4"/>
+    <path class="st0" d="M38 31v14"/>
+    <path class="st0" d="M43 23v22"/>
+    <path class="st0" d="M1 1h29v4H1z"/>
+    <path class="st0" d="M8 33v12"/>
+    <path class="st0" d="M23 33v12"/>
+</svg>

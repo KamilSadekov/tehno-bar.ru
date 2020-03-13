@@ -1,0 +1,16 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 33">
+    <style>
+        .st0{fill:none;stroke:#505050;stroke-width:2;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M9 13h30"/>
+    <path class="st0" d="M24 13v19"/>
+    <path class="st0" d="M19 32h10"/>
+    <path class="st0" d="M30 13c2-2 2-6 2-6h-8s0 4 2 6"/>
+    <path class="st0" d="M25.72 7C26 4.8 26 2 26 2h-8s0 7.67 2 11"/>
+    <path class="st0" d="M5 18V3c0-1.1-.9-2-2-2H1v20c0 1.66 1.34 3 3 3h12v-2c0-1.66-1.34-3-3-3H6c-.55 0-1-.45-1-1z"/>
+    <path class="st0" d="M3 24v9"/>
+    <path class="st0" d="M14 24v9"/>
+    <path class="st0" d="M43 18V3c0-1.1.9-2 2-2h2v20c0 1.66-1.34 3-3 3H32v-2c0-1.66 1.34-3 3-3h7c.55 0 1-.45 1-1z"/>
+    <path class="st0" d="M45 24v9"/>
+    <path class="st0" d="M34 24v9"/>
+</svg>
