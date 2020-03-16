@@ -1252,6 +1252,9 @@ div.mainp-text-grid{
 .trade-hidden{
     display: none;
 }
+.title-hidden{
+    display: none;
+}
 @media screen and (max-width: 1876px){
 
     .arrows{
@@ -1375,6 +1378,47 @@ div.mainp-text-grid{
     }
     .features__list{
         flex-wrap: wrap;
+    }
+    .title-news{
+        display: none;
+    }
+    .title-news-item-first span::after{
+        display: none;
+    }
+    .title-news-item-first span{
+        color: #e20413;
+    }
+    .title-news-item-first span::after{
+        display: none;
+    }
+    .title-hidden{
+        display: flex;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .news::before{
+        display: none;
+    }
+    .news-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    .news-anwrapper {
+        max-width: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    div.this-container{
+        padding: 0;
     }
 }
 @media screen and (max-width: 1612px){
@@ -1657,6 +1701,11 @@ div.mainp-text-grid{
     .design_description p{
         max-width: 840px
     }
+    /* .main-sliders{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
 }
 @media screen and (max-width: 1290px){
     div.features-last::after{
