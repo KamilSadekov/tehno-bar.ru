@@ -1213,7 +1213,7 @@ div.goods__item{
     flex-direction: column;
 
 }
-div.goods__name-main{
+.goods__name-main{
     color: #000;
     z-index: 2;
     justify-self: flex-end;
@@ -1230,9 +1230,6 @@ div.goods__name-main{
     position: absolute;
     bottom: 0;
 }
-.right-bottom-last{
-    max-width: 330px;
-}
 .img-change{
     display: none;
 }
@@ -1241,6 +1238,19 @@ div.goods__name-main{
 }
 div.mainp-text-grid{
     z-index: 1;
+}
+.style-mainp-grid-description{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.grid-img-hidde{
+    display: none;
+}
+.first-right{
+    margin-right: 22px;
+}
+.trade-hidden{
+    display: none;
 }
 @media screen and (max-width: 1876px){
 
@@ -1274,6 +1284,20 @@ div.mainp-text-grid{
     }
     .arrow-nowrap{
         margin-bottom: 19px;
+    }
+    .trade-style-img{
+        display: none;
+    }
+    .trade-hidden{
+        display: inline-block;
+        margin-left: 25px;
+    }
+    .adap-trade{
+        display: flex;
+    }
+    .trade-box{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -1473,11 +1497,6 @@ div.mainp-text-grid{
     .goods__banner_link br{
         display: none;
     }
-    .main-right-bottom img,
-    .main-right-top img{
-        min-width: 0;
-        min-height: 0;
-    }
     .main-right-bottom{
         flex-direction: row-reverse;
     }
@@ -1498,16 +1517,38 @@ div.mainp-text-grid{
         margin-right: 22px;
     }
     div.left-mainp-photos{
-        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-basis: unset;
+        max-width: 1025px;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .yellow{
+        margin-right: 15px;
     }
     div.mainp-box-image{
-        flex-direction: row;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     div.mainp-text-grid{
         margin-top: 0;
         margin-left: auto;
         margin-right: auto;
         padding: 35px 0 0 0;
+        max-width: 497px;
+    }
+    .grid-img-hidde{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .grid-img-hidden{
+        display: none;
+    }
+    .mainp-right-photo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
 
