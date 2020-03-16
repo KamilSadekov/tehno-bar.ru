@@ -505,11 +505,8 @@ input::-webkit-placeholder{
     font-size: 24px;
     font-weight: 300;
 }
-.ex-item-shape-photo{
-   background: url(../img/test-photo/shape-test.jpg) no-repeat top;
-   overflow: hidden;
-}
-.ex-item-shape-text {
+div.ex-item-shape-text {
+    position: relative;
     background-color: #fff;
     max-width: 427px;
     margin: auto;
@@ -517,6 +514,7 @@ input::-webkit-placeholder{
     font-size: 24px;
     font-weight: 300;
     padding-top: 1px;
+    z-index: 100;
 }
 .ex-item-shape-text p{
     margin-bottom: 34px;
@@ -1215,7 +1213,7 @@ div.goods__item{
     flex-direction: column;
 
 }
-.goods__name-main{
+div.goods__name-main{
     color: #000;
     z-index: 2;
     justify-self: flex-end;
