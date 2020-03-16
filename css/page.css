@@ -1289,7 +1289,7 @@ div.mainp-text-grid{
         display: none;
     }
     .trade-hidden{
-        display: inline-block;
+        display: flex;
         margin-left: 25px;
     }
     .adap-trade{
@@ -1298,6 +1298,18 @@ div.mainp-text-grid{
     .trade-box{
         flex-direction: column;
         align-items: center;
+    }
+    .trade-description{
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: 22px;
+        margin-left: 22px;
+        max-width: 831px;
+        text-align: center;
+        position: relative;
+        background-color: #fff;
+        margin-top: -100px;
     }
 }
 
@@ -1345,6 +1357,13 @@ div.mainp-text-grid{
     }
     .main-left{
         display: none;
+    }
+    .production{
+        flex-direction: column;
+        align-items: center;
+    }
+    .production-item-3{
+        order: 3;
     }
 }
 @media screen and (max-width: 1699px){
@@ -1488,11 +1507,6 @@ div.mainp-text-grid{
         min-width: 221px;
         font-size: 20px;
         padding: 17px 0;
-    }
-    .main-grid-description{
-        max-width: 544px;
-        text-align: center;
-        margin-top: 36px;
     }
     .goods__banner_link br{
         display: none;

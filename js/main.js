@@ -220,6 +220,4 @@ $(function() {
 
 	});	
 
-$(function(){
-	$('.styler').styler();
-});
+
