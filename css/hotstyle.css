@@ -974,12 +974,12 @@ div.pre-footer-button{
 .main-right-top{
     display: flex;
     margin-bottom: 16px;
-    align-items: top;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .main-right-bottom{
     display: flex;
-    align-items: top;
     justify-content: flex-end;
 }
 .trade-box{
@@ -1195,6 +1195,29 @@ div.paragraph li:not(:last-child) {
 }
 .main_page_after_test{
     margin-top: 35px;
+}
+div.goods__item{
+    background-color: #fff;
+    color: #000;
+    flex-direction: column;
+
+}
+.goods__name{
+    color: #000;
+    z-index: 2;
+    justify-self: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+}
+.goods__price{
+    color: #000;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
 }
 @media screen and (max-width: 1876px){
 
