@@ -2,8 +2,6 @@
     outline: none !important;
     box-sizing: border-box; 
 }
-
-
 a{
     text-decoration: none;
 }
@@ -505,7 +503,7 @@ input::-webkit-placeholder{
     font-size: 24px;
     font-weight: 300;
 }
-div.ex-item-shape-text {
+.ex-item-shape-text {
     position: relative;
     background-color: #fff;
     max-width: 427px;
