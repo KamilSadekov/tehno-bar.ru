@@ -2115,6 +2115,17 @@ div.mainp-text-grid{
         margin-left: 0;
         margin-right: 0;
     }
+    div.ex-item-shape-text {
+        position: relative;
+        background-color: #fff;
+        max-width: 427px;
+        margin: auto;
+        margin-top: -100px;
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 1px;
+        z-index: 100;
+    }
 }
 @media screen and (max-width: 630px){
     .design_description p{
@@ -2204,7 +2215,7 @@ div.mainp-text-grid{
     }
 }
 @media screen and (max-width: 558px){
-    .ex-item-shape-text {
+    div.ex-item-shape-text {
         margin-top: -60px;
     }
     .ex-item-shape {
