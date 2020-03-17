@@ -890,15 +890,17 @@ div.pre-footer-button{
     display: none;
 }
 /* main page */
-.main-title{
-    color: #010000;
-    font-size: 30px;
-    font-weight: 300;
+.main-title-wrapper{
     padding-top: 79px;
     max-width: 1314px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+.main-title{
+    color: #010000;
+    font-size: 30px;
+    font-weight: 300;
 }
 .main-title span{
     color: #e20514;
@@ -978,6 +980,7 @@ div.features__icon {
 
 .main-grid-description{
     max-width: 345px;
+    font-size: 18px;
 }
 .main-right{
     max-width: 987px;
@@ -1255,6 +1258,12 @@ div.mainp-text-grid{
 .title-hidden{
     display: none;
 }
+.this-container{
+    display: none;
+}
+.main-title-b{
+    display: none;
+}
 @media screen and (max-width: 1876px){
 
     .arrows{
@@ -1357,6 +1366,7 @@ div.mainp-text-grid{
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     .main-left{
         display: none;
@@ -1367,6 +1377,20 @@ div.mainp-text-grid{
     }
     .production-item-3{
         order: 3;
+    }
+    .first-prod {
+        margin-top: 0;
+    }
+    .production-item-text {
+        max-width: 513px;
+        margin: 0 auto;
+        padding-top: 23px;
+    }
+    .production-item{
+        padding-bottom: 40px;
+    }
+    .production-item-3{
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width: 1699px){
@@ -1419,6 +1443,36 @@ div.mainp-text-grid{
     }
     div.this-container{
         padding: 0;
+    }
+    .this-container{
+        display: block;
+    }
+    div.features{
+        background-color: #fff;
+        padding-top: 0;
+    }
+    .news-wrapper-item-on {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .first-stock,
+    .right-first-stock,
+    .stock {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-wrapper-item-off {
+        margin-left: 0;
+    }
+    .stock-img-description {
+        margin-top: 35px;
+        max-width: 319px;
+        text-align: center;
+    }
+    .right-text-wrapper{
+        text-align: center;
     }
 }
 @media screen and (max-width: 1612px){
@@ -1593,7 +1647,7 @@ div.mainp-text-grid{
         margin-top: 0;
         margin-left: auto;
         margin-right: auto;
-        padding: 35px 0 0 0;
+        padding: 30px 0 0 0;
         max-width: 497px;
     }
     .grid-img-hidde{
@@ -1607,6 +1661,20 @@ div.mainp-text-grid{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+    }
+    .production-item {
+        width: 100%;
+        text-align: center;
+    }
+    .main-grid-description {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .main-grid-description-first{
+        max-width: 514px;
+    }
+    div.production-btn{
+        min-width: 275px;
     }
 }
 
@@ -1880,6 +1948,16 @@ div.mainp-text-grid{
         width: 3rem;
         margin-left: 5rem;
     }
+    .main-bussiness,
+    .main-more-btn-bussiness{
+        margin-bottom: 0;
+    }
+    .right-text-wrapper{
+        max-width: 423px;
+    }
+    .main-title-wrapper{
+        padding-top: 10px;
+    }
 }
 @media screen and (max-width: 750px){
     .design_buttons{
@@ -1940,6 +2018,22 @@ div.mainp-text-grid{
     .pre-br{
         display: inline;
     }
+    div.main-more-btn{
+        margin-bottom: 0;
+    }
+    div.mainp-text-grid {
+        margin-bottom: 90px;
+    }
+    .trade-box {
+      margin-bottom: 60px;
+    }
+    .first-prod {
+        margin-top: 0;
+    }
+    .main-right-top {
+        margin-bottom: 10px;
+    }
+
 }
 @media screen and (max-width: 767px){
     .title span:before {
@@ -1961,6 +2055,9 @@ div.mainp-text-grid{
     }
     .grid-description {
         margin-top: -70px;
+    }
+    .news{
+        margin-bottom: 0;
     }
 }
 @media screen and (max-width: 700px){
@@ -2006,6 +2103,14 @@ div.mainp-text-grid{
     }
     .form-box {
         padding: 0;
+    }
+    .trade-description{
+        margin-top: 0;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 630px){
@@ -2094,7 +2199,6 @@ div.mainp-text-grid{
     .ben-list li {
         font-size: 16px;
     }
-
 }
 @media screen and (max-width: 558px){
     .ex-item-shape-text {
@@ -2155,12 +2259,53 @@ div.mainp-text-grid{
     div.goods__list {
         margin-bottom: 20px;
     }
+    .main-title {
+        font-size: 19px;    
+    }
+    .features__item {
+        -webkit-box-flex: 0;
+        flex: unset;
+        margin-left: auto;
+    }
+    .features__list {
+        flex-direction: column;
+    }
+    div.features__title:after{
+        display: none;
+    }
+    span.main-header-btn{
+        margin-top: 5px;
+    }
+    .features__middle::before{
+        display: none;
+    }
+    div.left-mainp-photos {
+        margin-top: 10px;
+    }
+    .yellow {
+        margin-right: 10px;
+    }
+    .trade-hidden {
+        margin-left: 15px;
+    }
+    .production-item-text{
+        font-size: 18px;
+    }
+    .stock-img-description{
+        font-size: 18px;
+    }
+    .right-text-wrapper{
+        font-size: 18px;
+    }
+    div.features__text{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 450px){
     .bussiness-title{
         display: none;
     }
-    .bussiness-description h2 {
+    .bussiness-description h2{
         font-size: 24px;
     }
     .bussiness {
@@ -2240,6 +2385,15 @@ div.mainp-text-grid{
     }
     .more-black {
         padding: 17px 0;
+    }
+    .right-top-last {
+        margin-right: 10px;
+    }
+    .right-bottom-last {
+        margin-right: 10px;
+    }
+    .main-right-top {
+        margin-bottom: 5px;
     }
 }
 
@@ -2374,6 +2528,20 @@ div.mainp-text-grid{
     }
     .design_description {
         text-align: center;
+    }
+    /* .main-title-b{
+        display: block;
+    } */
+    .main-title {
+        font-size: 18px;
+    }
+    .features__text p{
+        font-size: 16px;
+    }
+    .main-grid-description h2 {
+        font-size: 24px;
+        font-weight: 300;
+        text-transform: uppercase;
     }
 }
 @media screen and (max-width: 320px){
