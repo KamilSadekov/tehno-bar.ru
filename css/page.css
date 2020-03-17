@@ -2033,6 +2033,9 @@ div.mainp-text-grid{
     .main-right-top {
         margin-bottom: 10px;
     }
+    div.main-page-description p{
+        font-size: 18px;
+    }
 
 }
 @media screen and (max-width: 767px){
@@ -2300,6 +2303,9 @@ div.mainp-text-grid{
     div.features__text{
         font-size: 18px;
     }
+    div.features__title{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 450px){
     .bussiness-title{
@@ -2338,12 +2344,6 @@ div.mainp-text-grid{
         font-size: 24px;
         font-weight: 300;
         text-transform: uppercase;
-    }
-    .text-grid p {
-        margin-bottom: 38px;
-        color: #010000;
-        font-size: 16px;
-        font-weight: 300;
     }
     .ready-text h2 {
         font-size: 24px;
@@ -2394,6 +2394,12 @@ div.mainp-text-grid{
     }
     .main-right-top {
         margin-bottom: 5px;
+    }
+    div.mainp-text-grid {
+        margin-bottom: 30px;
+    }
+    .production{
+        margin-bottom: 60px;
     }
 }
 
