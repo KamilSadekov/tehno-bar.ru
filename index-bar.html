@@ -12,13 +12,14 @@
 <link href="fonts/opensans/ui.font.opensans.css?15819408112003" type="text/css"  rel="stylesheet" /> 
 <link href="/bitrix/js/main/core/css/core_popup.css?158194081017731" type="text/css"  rel="stylesheet" />
 <link href="/bitrix/templates/.default/components/bitrix/system.pagenavigation/tb-red/style.css?1581940812409" type="text/css"  rel="stylesheet" />
-<link href="css/vendor.css?158194081259894" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="css/main.css?1582804830122395" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="css/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="css/vendor.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="css/main.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="js/jquery.fancybox.min.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="js/jquery.mCustomScrollbar.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="css/custom.css?158280628634425" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="css/page.css" rel="stylesheet">
+<link href="css/page-dist.css" rel="stylesheet">
+<!-- <link href="css/page.css" rel="stylesheet"> -->
 <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -32,9 +33,9 @@
 <script type="text/javascript" src="/bitrix/js/main/loadext/extension.js?15819408112895"></script>
 <script type="text/javascript" src="/bitrix/js/main/core/core_popup.js?158194081076073"></script> -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
-<script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery.hidden.text.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
@@ -68,7 +69,7 @@
 						</div>
 </div>
             <!--'start_frame_cache_user_login_block'-->                <div class="user-block">
-                      <a href="/auth/" class="header__callback">
+                        <a href="/auth/" class="header__callback">
                             <span class="header__callback-span">Вход</span>
                             <svg version="1.1"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
@@ -96,7 +97,7 @@
                 <svg version="1.1"
                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
                      x="0px" y="0px" width="728.6px" height="489.8px" viewBox="0 0 728.6 489.8"
-                     style="overflow:scroll;enable-background:new 0 0 728.6 489.8;" xml:space="preserve">
+                     style="overflow:scroll;background:new 0 0 728.6 489.8;" xml:space="preserve">
                 <defs>
                 </defs>
                 <rect class="st10" fill="#E30613"; width="487.1" height="487.1"/>
@@ -643,27 +644,24 @@
 
 
 <div class="lead">
-	<div class="container">     
-		
-			
-			
+	<div class="container">     		
 <div class="lead__slider">
 <div class="owl-carousel owl-theme">
-		<a href="#">    			
-				<div class="lead__item" id="bx_3218110189_14277" >
-				<div class="lead__img" style="background-image: url(img/main-slide.jpg)"></div>
+		<a href="#">    				
+			    <div class="lead__item" id="bx_3218110189_14277" >
+				<div class="lead__img" style="background-image: url(img/bar-page/main-slider.jpg)"></div>
 				<div class="lead__content">
 					<span><b>Вся мебель для кафе и ресторанов. </b><br>Изготовление на заказ под ваш дизайн проект. </span>
 				</div>
 			</div>
-		</a>	<div class="lead__item" id="bx_3218110189_14278" >
-				<div class="lead__img" style="background-image: url(img/main-slide.jpg)"></div>
+		</a>							                    				<div class="lead__item" id="bx_3218110189_14278" >
+				<div class="lead__img" style="background-image: url(img/bar-page/main-slider.jpg)"></div>
 				<div class="lead__content">
 					<span><b>Скидка 20%</b><br>на мебель нашего производства</span>
 				</div>
 			</div>
-				<div class="lead__item" id="bx_3218110189_14279" >
-				<div class="lead__img" style="background-image: url(img/main-slide.jpg)"></div>
+																		<div class="lead__item" id="bx_3218110189_14279" >
+				<div class="lead__img" style="background-image: url(img/bar-page/main-slider.jpg)"></div>
 				<div class="lead__content">
 					<span><b>Скидка 20%</b><br>на мебель нашего производства</span>
 				</div>
@@ -673,684 +671,717 @@
 				
 					</div>
 </div>
-<!-- HEADER PART -->
-
-<div class="container">
-	<div class="main-title-wrapper">
-    <h2 class="main-title">
-        <span>Техно Бар</span>– это компания, в которой широчайший ассортимент соединяется с  многолетним
-        опытом миксологии бизнес-пространств. А человечный<br class="main-title-b"> подход  и клиентоориентированность 
-        гарантируют, что идеальный коктейль не будет разбавлен.        
+  <!-- HEADER PART -->
+  <div class="container">
+<div class="design">
+<div class="design_description design-frame">
+	<h2>
+		<span class="design_main_text">
+			<span class="light-design">
+                <span class="weight-design">Барные стойки любой сложности под заказ</span>
+				 <br class="first-br-design"> 
+			    <!--<br class="second-br-design"><br> -->
+			</span>
+		</span>
 	</h2>
+	<span class="design_description">
+		<p>
+			Если кухня — это сердце ресторана, то барная стойка это его лицо.
+			И оно, как и кухня, должно быть прекрасно и привлекать внимание.
+			Компания ТехноБар реализует для Вашего заведения барную стойку любого
+			дизайна и сложности. Огромный выбор материалов и профессиональное
+			оборудование на нашем производстве позволит сделать все, что вы пожелаете
+		</p>
+	</span>
+</div>
+	<div class="design_buttons">
+		<a href="#"><div class="design-btn red-btn bar-btn">ОСТАВИТЬ ЗАЯВКУ</div></a>
+		<a href="#"><div class="design-btn black-btn bar-btn">ПОРТФОЛИО</div></a>
+	</div>
 </div>
 </div>
-    <div class="features">
-        <div class="container">        
-            <div class="features__wr">
-           <ul class="features__list">
+<div class="features">
+    <div class="container">        
+        <div class="features__wr">
+       <ul class="features__list">
 
-				<li class="features__item" id="bx_651765591_14280">			
-					<div class="features__icon">
-						<img src="svg/features_1.svg" width="83" alt="features">
-					</div>
-				<div class="features__title features-first">Разработка концепции</div>
-				<div class="features__text">
-                    <p>
-                        Рыбатекст используется
-                        дизайнерами, проектировщиками
-                        и фронтендерами, когда нужно
-                        быстро заполнить макеты 
-                        или прототипы содержимым. 
-                    </p>
-                    <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
-				    </div>
-				</li>
-
-				<li class="features__item" id="bx_651765591_14281">
-								
-					<div class="features__icon">
-						<img src="svg/features_2.svg" width="83" alt="features">
-					</div>
-				
-                    <div class="features__title">Дизайн и проектирование помещения</div>
-                    <div class="features__text">
-                    <p>
-                        Рыбатекст используется
-                        дизайнерами, проектировщиками
-                        и фронтендерами, когда нужно
-                        быстро заполнить макеты 
-                        или прототипы содержимым. 
-                    </p>
-                    <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
-				   </div>
-				</li>
-
-				<li class="features__item features__middle__item" id="bx_651765591_14282">				
-					<div class="features__icon">
-						<img src="svg/sofa.svg" width="83" alt="features">
-					</div>
-                    <div class="features__title features__middle">Оснащение мебелью и обородованием</div>
-                    <div class="features__text">
-                    <p>
-                        Рыбатекст используется
-                        дизайнерами, проектировщиками
-                        и фронтендерами, когда нужно
-                        быстро заполнить макеты 
-                        или прототипы содержимым. 
-                    </p>
-                    <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
-				   </div>
-
-				</li>
-
-				<li class="features__item pre-last-item" id="bx_651765591_14283">				
-					<div class="features__icon">
-						<img src="svg/truck.svg" width="83" alt="features">
-					</div>
-                    <div class="features__title pre-last">автоматизация</div>
-                    <div class="features__text">
-                    <p>
-                        Рыбатекст используется
-                        дизайнерами, проектировщиками
-                        и фронтендерами, когда нужно
-                        быстро заполнить макеты 
-                        или прототипы содержимым. 
-                    </p>
-                    <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
+            <li class="features__item" id="bx_651765591_14280">			
+                <div class="features__icon">
+                    <img src="svg/feature_2.svg" width="83" alt="features">
+                </div>
+            <div class="features__title features-first">Разработка концепции</div>
+            <div class="features__text">
+                <p>
+                    Рыбатекст используется
+                    дизайнерами, проектировщиками
+                    и фронтендерами, когда нужно
+                    быстро заполнить макеты 
+                    или прототипы содержимым. 
+                </p>
+                <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
                 </div>
             </li>
 
-			<li class="features__item features-last-item" id="bx_651765591_14481">					
-					<div class="features__icon">
-						<img src="svg/define.svg" width="83" alt="features">
-					</div>
-				<div class="features__title features-last">ГАРАНТИЯ РЕЛЕВАНТНОГО РЕЗУЛЬТАТА</div>
-				<div class="features__text">
-                    <p>
-                        Рыбатекст используется
-                        дизайнерами, проектировщиками
-                        и фронтендерами, когда нужно
-                        быстро заполнить макеты 
-                        или прототипы содержимым. 
-                    </p>
-                    <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
-				</div>
-			</li>
-		</ul>
-            </div>
-        </div>
-    </div>
-
-<div class="container">
-    <div class="title"><span>Дизайн и проектирование</span></div>
-    <div class="bussiness main-bussiness">
-        <div class="bussiness-description design-main__description main-page-description">
-            <h2>
-                ОТ ЯРКОГО ОБРАЗА<br class="bussiness-title">
-                К ПРОДУМАННОМУ ПРОЕКТУ
-            </h2>
-            <p>
-                Рыбатекст используется дизайнерами, проектировщиками
-                и фронтендерами, когда нужно быстро заполнить макеты
-                или прототипы содержимым. Это тестовый контент,
-                который не должен нести никакого смысла, лишь показать
-                наличие самого текста или продемонстрировать
-                типографику в деле.                
-            </p>
-           <a href=""><div class="more-btn main-more-btn main-more-btn-bussiness">ПОДРОБНЕЕ</div></a>
-        </div>
-        <div class="bussiness-items first-item first-main-item">
-            <img src="img/main-page/design-project.jpg" alt="">
-        </div>
-        <div class="bussiness-items second-item second-main-item">
-            <img src="img/test-photo/test-5.jpg" alt="">
-        </div>
-    </div>
-    <a href="#3" class="goods__banner">
-        <div class="goods__banner_content">
-            <span class="goods__banner_link"><span>ПОКУПКА МЕБЕЛИ 
-                В ЛИЗИНГ  </span></span>
-        </div>
-            <img src="img/banner_1.jpg" alt="banner" class="goods__banner_img">
-    </a>
-    </div>
-
-    <div class="container">
-        <div class="title"><span>Мебель для Ресторанов</span></div>
-	</div>
-	<div class="container">
-        <div class="main-grid-photos">
-            <div class="main-left">
-				<div class="main-left-items">
-					<img src="img/main-page/left-photo-top.jpg" alt="" style="margin-bottom: 16px;">
-					<img src="img/main-page/left-photo-bot.jpg" alt="">
-			    </div>
-            </div>
-            <div class="main-grid-description main-grid-description-first">
-                <h2>
-                    НАчем ПОСИДЕТЬ,<br>
-                    ЗА ЧЕМ Посидеть<br> 
-                    И ВСЕ ОСТАЛЬНОЕ
-                </h2>
+            <li class="features__item bar-features" id="bx_651765591_14281">
+                            
+                <div class="features__icon">
+                       
+                    <svg width="83" height="83"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:cc="http://creativecommons.org/ns#"
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:svg="http://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 160.07867 160.09467"
+                    height="160.09467"
+                    width="160.07867"
+                    xml:space="preserve"
+                    id="svg2"
+                    version="1.1"><metadata
+                      id="metadata8"><rdf:RDF><cc:Work
+                          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+                            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+                      id="defs6"><clipPath
+                        id="clipPath18"
+                        clipPathUnits="userSpaceOnUse"><path
+                          id="path16"
+                          d="M 0,120.071 H 120.059 V 0 H 0 Z" /></clipPath></defs><g
+                      transform="matrix(1.3333333,0,0,-1.3333333,0,160.09467)"
+                      id="g10"><g
+                        id="g12"><g
+                          clip-path="url(#clipPath18)"
+                          id="g14"><g
+                            transform="translate(49.6393,51.6567)"
+                            id="g20"><path
+                              id="path22"
+                              style="fill:#e20413;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                              d="M 0,0 C 0.351,0.229 0.455,0.694 0.23,1.047 L -0.593,2.341 C -0.822,2.702 -1.306,2.81 -1.664,2.577 -5.816,-0.129 -9.69,-3.271 -13.191,-6.772 l -23.467,-23.467 c -0.299,-0.3 -0.299,-0.785 0,-1.084 l 1.085,-1.084 c 0.299,-0.3 0.784,-0.3 1.084,0 l 23.466,23.466 C -7.675,-5.593 -3.97,-2.587 0,0" /></g><g
+                            transform="translate(49.6393,51.6567)"
+                            id="g24"><path
+                              id="path26"
+                              style="fill:#e20413;stroke:#e20413;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                              d="M 0,0 C 0.351,0.229 0.455,0.694 0.23,1.047 L -0.593,2.341 C -0.822,2.702 -1.306,2.81 -1.664,2.577 -5.816,-0.129 -9.69,-3.271 -13.191,-6.772 l -23.467,-23.467 c -0.299,-0.3 -0.299,-0.785 0,-1.084 l 1.085,-1.084 c 0.299,-0.3 0.784,-0.3 1.084,0 l 23.466,23.466 C -7.675,-5.593 -3.97,-2.587 0,0 Z" /></g><g
+                            transform="translate(54.3727,48.6714)"
+                            id="g28"><path
+                              id="path30"
+                              style="fill:#e20413;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                              d="m 0,0 -1.293,0.823 c -0.354,0.225 -0.819,0.121 -1.048,-0.23 -2.586,-3.968 -5.592,-7.674 -8.942,-11.023 l -23.464,-23.465 c -0.299,-0.299 -0.299,-0.784 0,-1.084 l 1.084,-1.084 c 0.3,-0.299 0.785,-0.299 1.084,0 l 23.465,23.465 c 3.503,3.502 6.645,7.377 9.349,11.527 C 0.468,-0.712 0.361,-0.229 0,0" /></g><g
+                            transform="translate(54.3727,48.6714)"
+                            id="g32"><path
+                              id="path34"
+                              style="fill:#e20413;stroke:#e20413;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                              d="m 0,0 -1.293,0.823 c -0.354,0.225 -0.819,0.121 -1.048,-0.23 -2.586,-3.968 -5.592,-7.674 -8.942,-11.023 l -23.464,-23.465 c -0.299,-0.299 -0.299,-0.784 0,-1.084 l 1.084,-1.084 c 0.3,-0.299 0.785,-0.299 1.084,0 l 23.465,23.465 c 3.503,3.502 6.645,7.377 9.349,11.527 C 0.468,-0.712 0.361,-0.229 0,0 Z" /></g><g
+                            transform="translate(109.3595,10.7056)"
+                            id="g36"><path
+                              id="path38"
+                              style="fill:#e20413;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                              d="m 0,0 c -0.985,-0.984 -2.7,-0.984 -3.685,0 -0.492,0.493 -0.763,1.146 -0.763,1.842 0,0.696 0.271,1.351 0.763,1.843 0.492,0.492 1.146,0.763 1.843,0.763 0.696,0 1.35,-0.271 1.842,-0.763 C 1.016,2.669 1.016,1.016 0,0 m -1.842,7.515 c -1.515,0 -2.94,-0.59 -4.012,-1.661 -1.071,-1.072 -1.661,-2.497 -1.661,-4.012 0,-1.515 0.59,-2.939 1.661,-4.01 1.072,-1.072 2.496,-1.662 4.012,-1.662 1.515,0 2.939,0.59 4.01,1.662 2.211,2.211 2.211,5.81 0,8.022 -1.071,1.071 -2.495,1.661 -4.01,1.661" /></g><g
+                            transform="translate(109.3595,10.7056)"
+                            id="g40"><path
+                              id="path42"
+                              style="fill:#e20413;stroke:#e20413;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                              d="m 0,0 c -0.985,-0.984 -2.7,-0.984 -3.685,0 -0.492,0.493 -0.763,1.146 -0.763,1.842 0,0.696 0.271,1.351 0.763,1.843 0.492,0.492 1.146,0.763 1.843,0.763 0.696,0 1.35,-0.271 1.842,-0.763 C 1.016,2.669 1.016,1.016 0,0 Z m -1.842,7.515 c -1.515,0 -2.94,-0.59 -4.012,-1.661 -1.071,-1.072 -1.661,-2.497 -1.661,-4.012 0,-1.515 0.59,-2.939 1.661,-4.01 1.072,-1.072 2.496,-1.662 4.012,-1.662 1.515,0 2.939,0.59 4.01,1.662 2.211,2.211 2.211,5.81 0,8.022 -1.071,1.071 -2.495,1.661 -4.01,1.661 z" /></g><g
+                            transform="translate(114.3708,7.5449)"
+                            id="g44"><path
+                              id="path46"
+                              style="fill:#e20413;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                              d="m 0,0 c -1.651,-2.228 -4.157,-3.478 -6.854,-3.478 -2.439,0 -4.721,1.022 -6.356,2.865 -1.594,1.797 -2.282,4.226 -2.067,6.619 l 0.044,0.48 -34.876,34.876 c 0.783,0.801 1.628,1.536 2.531,2.197 l 25.274,-25.274 c 0.3,-0.3 0.785,-0.3 1.085,0 l 1.084,1.084 c 0.299,0.299 0.299,0.784 0,1.084 l -24.772,24.771 c 1.035,0.533 2.118,0.981 3.24,1.331 0.041,0.013 0.079,0.026 0.118,0.04 l 33.212,-33.212 0.715,0.065 C -4.271,13.749 -1,12.066 0.67,8.935 2.179,6.105 1.91,2.576 0,0 M -60.479,31.613 -93.888,-1.795 c -0.17,-0.17 -0.558,-0.268 -1.064,-0.268 -2.609,0.001 -6.847,2.276 -8.322,3.75 l -1.49,1.49 c -0.879,0.879 -2.212,2.957 -3.06,5.229 -0.856,2.29 -0.819,3.76 -0.423,4.157 l 33.409,33.408 8.126,5.169 c 4.611,2.934 8.055,7.411 9.708,12.618 l 1.314,1.352 c 0.389,-0.109 1,-0.428 1.195,-0.624 l 12.53,-12.529 c 0.195,-0.196 0.514,-0.807 0.624,-1.196 l -1.353,-1.314 c -5.207,-1.653 -9.683,-5.097 -12.617,-9.708 z m -23.59,42.243 c -2.476,-1.211 -5.25,-1.852 -8.022,-1.852 -4.867,0 -9.442,1.895 -12.883,5.336 -4.434,4.434 -6.237,10.841 -4.898,16.868 l 11.968,-11.967 13.812,13.813 -11.969,11.968 c 1.999,0.446 4.068,0.552 6.163,0.312 2.585,-0.298 5.097,-1.155 7.31,-2.525 8.238,-5.1 10.926,-15.326 6.881,-23.591 l -0.481,-0.983 16.332,-16.333 c -0.015,-0.039 -0.028,-0.079 -0.04,-0.119 -0.35,-1.122 -0.798,-2.204 -1.331,-3.239 l -9.165,9.165 c -0.299,0.299 -0.785,0.299 -1.084,0 l -1.084,-1.084 c -0.299,-0.299 -0.299,-0.785 0,-1.084 l 9.668,-9.668 c -0.66,-0.903 -1.396,-1.747 -2.197,-2.531 l -17.996,17.996 z m 65.394,16.179 c 2.835,2.835 5.403,5.964 7.632,9.3 l 1.565,2.343 c 0.572,0.857 1.342,1.591 2.224,2.123 l 4.716,2.843 1.97,-1.969 -2.844,-4.717 c -0.531,-0.881 -1.265,-1.65 -2.123,-2.223 l -2.343,-1.566 c -3.335,-2.228 -6.464,-4.795 -9.299,-7.631 l -28.516,-28.517 -0.708,0.709 -0.79,0.79 z M 1.312,13.168 c -2.252,2.253 -5.263,3.466 -8.473,3.376 l -32.03,32.03 0.312,0.303 c 1.52,1.522 -0.04,4.371 -0.918,5.248 l -3.727,3.728 28.515,28.516 c 2.694,2.694 5.667,5.133 8.835,7.25 l 2.344,1.566 c 1.23,0.822 2.283,1.925 3.045,3.19 l 4.082,6.771 -5.363,5.363 -6.772,-4.082 c -1.266,-0.763 -2.369,-1.816 -3.19,-3.046 l -1.566,-2.343 c -2.117,-3.169 -4.556,-6.142 -7.25,-8.834 l -28.515,-28.516 -2.968,2.967 c -0.654,0.654 -2.262,1.56 -3.581,1.56 -0.846,0 -1.373,-0.35 -1.682,-0.659 l -0.287,-0.296 -14.615,14.616 c 3.399,7.96 1.642,17.243 -4.53,23.416 -4.02,4.02 -9.366,6.234 -15.053,6.234 -2.547,0 -5.044,-0.447 -7.424,-1.33 l -2.241,-0.831 13.311,-13.311 -9.475,-9.476 -13.312,13.312 -0.831,-2.243 c -2.887,-7.787 -0.962,-16.609 4.905,-22.475 4.02,-4.02 9.366,-6.234 15.051,-6.234 2.866,0 5.736,0.586 8.364,1.704 l 16.278,-16.278 c -0.3,-0.215 -0.595,-0.437 -0.908,-0.636 l -8.411,-5.35 -33.647,-33.647 c -1.451,-1.45 -1.548,-4.008 -0.282,-7.398 0.912,-2.443 2.426,-4.985 3.765,-6.324 l 1.49,-1.49 c 1.895,-1.895 6.923,-4.648 10.489,-4.648 h 0.001 c 1.371,0 2.458,0.392 3.232,1.165 l 33.528,33.528 5.468,8.529 c 0.2,0.313 0.422,0.609 0.637,0.909 L -18.395,5.311 c -0.085,-3.166 1.123,-6.221 3.376,-8.474 2.181,-2.181 5.081,-3.382 8.165,-3.382 3.084,0 5.985,1.201 8.166,3.382 4.502,4.503 4.502,11.829 0,16.331" /></g><g
+                            transform="translate(114.3708,7.5449)"
+                            id="g48"><path
+                              id="path50"
+                              style="fill:#e20413;stroke:#e20413;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                              d="m 0,0 c -1.651,-2.228 -4.157,-3.478 -6.854,-3.478 -2.439,0 -4.721,1.022 -6.356,2.865 -1.594,1.797 -2.282,4.226 -2.067,6.619 l 0.044,0.48 -34.876,34.876 c 0.783,0.801 1.628,1.536 2.531,2.197 l 25.274,-25.274 c 0.3,-0.3 0.785,-0.3 1.085,0 l 1.084,1.084 c 0.299,0.299 0.299,0.784 0,1.084 l -24.772,24.771 c 1.035,0.533 2.118,0.981 3.24,1.331 0.041,0.013 0.079,0.026 0.118,0.04 l 33.212,-33.212 0.715,0.065 C -4.271,13.749 -1,12.066 0.67,8.935 2.179,6.105 1.91,2.576 0,0 Z M -60.479,31.613 -93.888,-1.795 c -0.17,-0.17 -0.558,-0.268 -1.064,-0.268 -2.609,0.001 -6.847,2.276 -8.322,3.75 l -1.49,1.49 c -0.879,0.879 -2.212,2.957 -3.06,5.229 -0.856,2.29 -0.819,3.76 -0.423,4.157 l 33.409,33.408 8.126,5.169 c 4.611,2.934 8.055,7.411 9.708,12.618 l 1.314,1.352 c 0.389,-0.109 1,-0.428 1.195,-0.624 l 12.53,-12.529 c 0.195,-0.196 0.514,-0.807 0.624,-1.196 l -1.353,-1.314 c -5.207,-1.653 -9.683,-5.097 -12.617,-9.708 z m -23.59,42.243 c -2.476,-1.211 -5.25,-1.852 -8.022,-1.852 -4.867,0 -9.442,1.895 -12.883,5.336 -4.434,4.434 -6.237,10.841 -4.898,16.868 l 11.968,-11.967 13.812,13.813 -11.969,11.968 c 1.999,0.446 4.068,0.552 6.163,0.312 2.585,-0.298 5.097,-1.155 7.31,-2.525 8.238,-5.1 10.926,-15.326 6.881,-23.591 l -0.481,-0.983 16.332,-16.333 c -0.015,-0.039 -0.028,-0.079 -0.04,-0.119 -0.35,-1.122 -0.798,-2.204 -1.331,-3.239 l -9.165,9.165 c -0.299,0.299 -0.785,0.299 -1.084,0 l -1.084,-1.084 c -0.299,-0.299 -0.299,-0.785 0,-1.084 l 9.668,-9.668 c -0.66,-0.903 -1.396,-1.747 -2.197,-2.531 l -17.996,17.996 z m 65.394,16.179 c 2.835,2.835 5.403,5.964 7.632,9.3 l 1.565,2.343 c 0.572,0.857 1.342,1.591 2.224,2.123 l 4.716,2.843 1.97,-1.969 -2.844,-4.717 c -0.531,-0.881 -1.265,-1.65 -2.123,-2.223 l -2.343,-1.566 c -3.335,-2.228 -6.464,-4.795 -9.299,-7.631 l -28.516,-28.517 -0.708,0.709 -0.79,0.79 z M 1.312,13.168 c -2.252,2.253 -5.263,3.466 -8.473,3.376 l -32.03,32.03 0.312,0.303 c 1.52,1.522 -0.04,4.371 -0.918,5.248 l -3.727,3.728 28.515,28.516 c 2.694,2.694 5.667,5.133 8.835,7.25 l 2.344,1.566 c 1.23,0.822 2.283,1.925 3.045,3.19 l 4.082,6.771 -5.363,5.363 -6.772,-4.082 c -1.266,-0.763 -2.369,-1.816 -3.19,-3.046 l -1.566,-2.343 c -2.117,-3.169 -4.556,-6.142 -7.25,-8.834 l -28.515,-28.516 -2.968,2.967 c -0.654,0.654 -2.262,1.56 -3.581,1.56 -0.846,0 -1.373,-0.35 -1.682,-0.659 l -0.287,-0.296 -14.615,14.616 c 3.399,7.96 1.642,17.243 -4.53,23.416 -4.02,4.02 -9.366,6.234 -15.053,6.234 -2.547,0 -5.044,-0.447 -7.424,-1.33 l -2.241,-0.831 13.311,-13.311 -9.475,-9.476 -13.312,13.312 -0.831,-2.243 c -2.887,-7.787 -0.962,-16.609 4.905,-22.475 4.02,-4.02 9.366,-6.234 15.051,-6.234 2.866,0 5.736,0.586 8.364,1.704 l 16.278,-16.278 c -0.3,-0.215 -0.595,-0.437 -0.908,-0.636 l -8.411,-5.35 -33.647,-33.647 c -1.451,-1.45 -1.548,-4.008 -0.282,-7.398 0.912,-2.443 2.426,-4.985 3.765,-6.324 l 1.49,-1.49 c 1.895,-1.895 6.923,-4.648 10.489,-4.648 h 0.001 c 1.371,0 2.458,0.392 3.232,1.165 l 33.528,33.528 5.468,8.529 c 0.2,0.313 0.422,0.609 0.637,0.909 L -18.395,5.311 c -0.085,-3.166 1.123,-6.221 3.376,-8.474 2.181,-2.181 5.081,-3.382 8.165,-3.382 3.084,0 5.985,1.201 8.166,3.382 4.502,4.503 4.502,11.829 0,16.331 z" /></g></g></g></g></svg>
+                 </div> 
+            
+                <div class="features__title">Дизайн и проектирование помещения</div>
+                <div class="features__text">
                 <p>
-                    Рыбатекст используется дизайнерами, проектировщиками
-                    и фронтендерами, когда нужно быстро заполнить макеты
-                    или прототипы содержимым. Это тестовый контент,
-                    который не должен нести никакого смысла, лишь показать
-                    наличие самого текста или продемонстрировать
-                    типографику в деле.                
+                    Рыбатекст используется
+                    дизайнерами, проектировщиками
+                    и фронтендерами, когда нужно
+                    быстро заполнить макеты 
+                    или прототипы содержимым. 
                 </p>
-               <a href="#"><div class="more-btn main-more-btn">ПОДРОБНЕЕ</div></a>
-            </div>
-            <div class="main-right">
-                <div class="main-right-top">
-					<div class="top-photo img-change">
-					    <img src="img/main-page/right-photo-bot-2.jpg" alt="">
-					</div>
-					<div class="top-photo first-right">
-					    <img src="img/main-page/right-photo-top-1.jpg" alt="" style="margin-right: 22px;">
-					</div>
-					<div class="top-photo right-top-last">
-					    <img src="img/main-page/right-photo-top-2.jpg" alt="">
-				    </div>
+                <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
+               </div>
+            </li>
+
+            <li class="features__item features__middle__item" id="bx_651765591_14282">				
+                <div class="features__icon">
+<svg width="83" height="83"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 154.224 162.99733"
+   height="162.99733"
+   width="154.224"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs id="defs6"><clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path16"
+         d="M 0,122.248 H 115.668 V 0 H 0 Z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,162.99733)"
+     id="g10"><g
+       id="g12"><g
+         clip-path="url(#clipPath18)"
+         id="g14"><g
+           transform="translate(26.0128,17.7802)"
+           id="g20"><path
+             id="path22"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 c 0,3.196 -2.59,5.786 -5.786,5.786 -3.195,0 -5.786,-2.59 -5.786,-5.786 0,-3.195 2.591,-5.786 5.786,-5.786 C -2.59,-5.786 0,-3.195 0,0 Z" /></g><g
+           transform="translate(20.2266,23.5664)"
+           id="g24"><path
+             id="path26"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V -4.186" /></g><g
+           transform="translate(22.7735,104.8789)"
+           id="g28"><path
+             id="path30"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 c 0,2.301 -1.866,4.166 -4.167,4.166 -2.301,0 -4.166,-1.865 -4.166,-4.166 0,-2.301 1.865,-4.167 4.166,-4.167 C -1.866,-4.167 0,-2.301 0,0 Z" /></g><g
+           transform="translate(101.0743,92.915)"
+           id="g32"><path
+             id="path34"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 c 0,14.82 -12.014,26.833 -26.833,26.833 h -46.186 c -15.291,0 -25.553,-12.396 -25.553,-27.687 l 98.572,0 z" /></g><g
+           transform="translate(89.794,92.0605)"
+           id="g36"><path
+             id="path38"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V -5.022 C 0,-7.04 -1.636,-8.676 -3.654,-8.676 h -16.62 c -2.018,0 -3.654,1.636 -3.654,3.654 V 0 Z" /></g><g
+           transform="translate(80.9068,83.3847)"
+           id="g40"><path
+             id="path42"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V -11.833" /></g><g
+           transform="translate(74.7535,83.3847)"
+           id="g44"><path
+             id="path46"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V -11.833" /></g><g
+           transform="translate(81.6856,71.5512)"
+           id="g48"><path
+             id="path50"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 c 2.024,0 3.665,-1.641 3.665,-3.666 v -7.757 h -15.04 v 7.757 c 0,2.025 1.64,3.666 3.664,3.666 z" /></g><g
+           transform="translate(53.4815,52.9502)"
+           id="g52"><path
+             id="path54"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 C 0.149,-3.451 0.51,-7.327 1.156,-11.158" /></g><g
+           transform="translate(94.7486,15.5947)"
+           id="g56"><path
+             id="path58"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 C 16.408,8.65 14.613,44.536 14.613,44.536 H -9.398 -24.437 -48.454 c 0,0 -0.625,-12.465 2.225,-24.473" /></g><g
+           transform="translate(60.9078,15.5947)"
+           id="g60"><path
+             id="path62"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 C -4.471,2.358 -7.588,6.737 -9.762,11.859" /></g><g
+           transform="translate(35.2735,15.5947)"
+           id="g64"><path
+             id="path66"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 v 63.135 c 0,7.362 5.968,13.33 13.331,13.33" /></g><g
+           transform="translate(35.2735,15.5957)"
+           id="g68"><path
+             id="path70"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 h 25.637 33.841 5.385 c 7.198,0 13.032,-5.834 13.032,-13.031 v -0.065 H -32.773 v 13.095 c 8.641,12.045 13.288,26.497 13.288,41.322 v 19.722 c 0,8.517 -4.769,15.421 -13.286,15.421" /></g><g
+           transform="translate(35.2735,35.6591)"
+           id="g72"><path
+             id="path74"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 28.457 V -8.204 H 0" /></g><g
+           transform="translate(60.1666,104.8789)"
+           id="g76"><path
+             id="path78"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 H 38.098" /></g><g
+           transform="translate(28.8541,104.6831)"
+           id="g80"><path
+             id="path82"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 0" /></g><g
+           transform="translate(34.7198,104.6831)"
+           id="g84"><path
+             id="path86"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0, 6.604;stroke-dashoffset:0;stroke-opacity:1"
+             d="M 0,0 H 14.665" /></g><g
+           transform="translate(52.3179,104.6831)"
+           id="g88"><path
+             id="path90"
+             style="fill:none;stroke:#e20413;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 0,0 V 0" /></g></g></g></g></svg>
                 </div>
-                <div class="main-right-bottom">
-					<div class="bottom-photo img-change">
-					    <img src="img/main-page/right-photo-top-2.jpg" alt="">
-					</div>
-					<div class="bottom-photo first-right">
-					    <img src="img/main-page/right-photo-bot-1.jpg" alt="" style="margin-right: 22px;">
-					</div>
-					<div class="bottom-photo right-bottom-last">
-					   <img src="img/main-page/right-photo-bot-2.jpg"  alt="">
-				    </div>
+                <div class="features__title features__middle">Оснащение мебелью и обородованием</div>
+                <div class="features__text">
+                <p>
+                    Рыбатекст используется
+                    дизайнерами, проектировщиками
+                    и фронтендерами, когда нужно
+                    быстро заполнить макеты 
+                    или прототипы содержимым. 
+                </p>
+                <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
+               </div>
+
+            </li>
+
+        <li class="features__item features-last-item" id="bx_651765591_14481">					
+                <div class="features__icon bar-icon">
+                    <svg   width='83' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 32">
+                        <title>truck</title><g id="Слой_2" data-name="Слой 2"><g id="icons"><path class="cls-1" d="M31,9h7.94a2,2,0,0,1,1.66.87L44,16h1a2,2,0,0,1,2,2.21V25a2,2,0,0,1-2,2H43"/>
+                        <polyline class="cls-1" points="17 1 31 1 31 27 15 27"/><line class="cls-1" x1="7" y1="27" x2="2" y2="27"/>
+                        <path class="cls-1" d="M43,27a4,4,0,1,1-4-4A4,4,0,0,1,43,27Z"/><path class="cls-1" d="M15,27a4,4,0,1,1-4-4A4,4,0,0,1,15,27Z"/>
+                        <line class="cls-1" x1="31" y1="27" x2="35" y2="27"/><polyline class="cls-1" points="33 17 40 17 42 16 44 16"/><line class="cls-1" y1="16" x2="17" y2="16"/>
+                        <line class="cls-1" x1="3" y1="6" x2="26" y2="6"/><line class="cls-1" x1="9" y1="11" x2="24" y2="11"/><line class="cls-1" x1="7" y1="11" x2="5" y2="11"/>
+                        <line class="cls-1" x1="15" y1="1" x2="13" y2="1"/></g></g>
+                    </svg>
                 </div>
+            <div class="features__title features-last">ГАРАНТИЯ РЕЛЕВАНТНОГО РЕЗУЛЬТАТА</div>
+            <div class="features__text">
+                <p>
+                    Рыбатекст используется
+                    дизайнерами, проектировщиками
+                    и фронтендерами, когда нужно
+                    быстро заполнить макеты 
+                    или прототипы содержимым. 
+                </p>
+                <span class="goods__btn btn header-btn main-header-btn"><span>ПОДРОБНЕЕ</span></span>
             </div>
-		</div>
-	</div>
+        </li>
+    </ul>
+        </div>
+    </div>
+</div>
 
 <div class="container">
-    <div class="title"><span>Мебель для Отелей</span></div>
-    <div class="images-grid">
-        <div class="box-image mainp-box-image">
-            <div class="left-photos left-mainp-photos">
-				<div class="yellow">
-				   <img src="img/yellow-1.png" alt="forniture">
-				</div>
-				<div class="grid-img">
-				   <img src="img/red-1.png" alt="forniture">
-				</div>
-            </div>
-            <div class="right-photo mainp-right-photo">
-				<div class="blue-big">
-				    <img src="img/blue-big-1.png" alt="forniture">
-			    </div>
-            </div>
+    <div class="title">
+        <span>Барные стойки</span>
+	</div>
+	<div class="bar-stand">
+		<div class="bar-stand-item bar-stand-item-1">
+			 <div class="bar-stand-img">
+				 <img src="img/bar-page/sport-kafe.jpg" alt="">
+			 </div>
+			 <div class="bar-stand-description bar-stand-description-first">
+				 <h2>для кафе и ресторанов </h2>
+				 <p>
+					Начните формировать уникальный стиль
+					вашего заведения с барной стойки от ТехноБар.
+					Мы знаем все о Барах!
+				 </p>
+			 </div>
 		</div>
-		<div class="grid-description mainp-text-grid">
-			<div class="text-grid mainp-grid-description">
+		<div class="bar-stand-item">
+			<div class="bar-stand-img">
+				<img src="img/bar-page/coffee-island-2.jpg" alt="">
+			</div>
+			<div class="bar-stand-description">
+				<h2>кофейные  острова</h2>
+				<p>
+					Сосредоточие добра и бодрости. Место, в котором
+					добрые Баристы спасают людей от утренней депрессии.
+					Заказать это чудо можно в ТехноБар!					
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="bar-edge">
+		<div class="bar-edge-item bar-edge-item-1">
+			<div class="bar-edge-item-img">
+				<img src="img/bar-page/kafe-and-rest.jpg" alt="">
+			</div>
+			<div class="bar-edge-description bar-edge-description-right">
 				<h2>
-					СТИЛЬ, УЮТ И УДОБСТВО
+					для кафе и ресторанов 
 				</h2>
 				<p>
-					Рыбатекст используется дизайнерами, проектировщиками
-					и фронтендерами, когда нужно быстро заполнить макеты
-					или прототипы содержимым. Это тестовый контент,
-					который не должен нести никакого смысла, лишь показать
-					наличие самого текста или продемонстрировать
-					типографику в деле.                        
+					Гнутые линии, ломанные поверхности,
+					сложные соединения и максимальная 
+					красота и функциональность.
+					Мы сделаем барную стойку такой,
+					какой ее запланировали Вы!					
 				</p>
 			</div>
-				<div class="more-button">
-					<a href="#"><div class="more-btn main-more-btn style-mainp-grid-description">ПОДРОБНЕЕ</div></a>
-				</div>
+		</div>
+		<div class="bar-edge-item bar-edge-item-3">
+			<div class="bar-edge-item-img">
+				<img src="img/bar-page/bar-man.png" alt="">
+			</div>
+			<div class="bar-edge-description bar-edge-description-3">
+				<h2>
+					        СОБСТВЕННОЕ
+					<span>ПРОИЗВОДСТВО МЕБЕЛИ</span>
+				</h2>
+				<p>
+					Современное оборудование и профессиональные
+					работники нашего собственного производства
+					помогут вас реализовать проект любой сложности!					
+				</p>
+			</div>
+		</div>
+		<div class="bar-edge-item bar-edge-item-2">
+			<div class="bar-edge-item-img">
+				<img src="img/bar-page/coffee-island.jpg" alt="">
+			</div>
+			<div class="bar-edge-description">
+				<h2>
+					кофейные  острова
+				 </h2>
+				<p>
+					Не важно, какой формы будет ваш
+					кофейный остров - круглый, квадратный,
+					прямоугольный или П-образный. Мы будем
+					четко следовать вашим чертежам
+					и эскизам.					
+				</p>
+
+				</h2>
+			</div>
+	    </div>
+	</div>
+	<div class="use-materials-title">
+		<h2><span>Используемые</span> материалы</h2>
+	</div>
+	<div class="use-materials">
+		<div class="use-materials-item use-materials-item-1">
+			<div class="use-materials-item-img">
+				<img src="img/test-photo/test-bar-3.jpg" alt="">
+			</div>
+			<div class="use-materials-item-description">
+				<span>МЕТАЛЛ</span>
+				<p>
+					Для наших проектов мы используем 
+					огромное количество различных
+					форм и видов метала.
+					Это универсальный материал, 
+					который никогда не выйдет из моды.					
+				</p>
+			</div>
+		</div>
+		<div class="use-materials-item use-materials-item-2">
+			<div class="use-materials-item-img">
+				<img src="img/test-photo/test-bar-3.jpg" alt="">
+			</div>
+			<div class="use-materials-item-description">
+				<span>СТЕКЛО</span>
+				<p>
+					Стекло это не только окна.
+					Мы научились вписывать стекло
+					в мебель и декор.
+					Даже самый сдержанный
+					интерьер можно оживить вставками
+					из стекла!					
+				</p>
+			</div>
+		</div>
+		<div class="use-materials-item use-materials-item-3">
+			<div class="use-materials-item-img">
+				<img src="img/test-photo/test-bar-3.jpg" alt="">
+			</div>
+			<div class="use-materials-item-description">
+				<span>ДЕРЕВО</span>
+				<p>
+					Дерево - один из самых разнообразных
+					природных материалов. Его цветом и фактурой
+					можно подчеркнуть любой интерьер. 
+					Огромный выбор шпона и массива 
+					позволяют сделать каждый проект
+					неповторимым!					
+				</p>
+			</div>
+		</div>
+		<div class="use-materials-item use-materials-item-4">
+			<div class="use-materials-item-img">
+				<img src="img/test-photo/test-bar-3.jpg" alt="">
+			</div>
+			<div class="use-materials-item-description">
+				<span>ПЛАСТИК</span>
+				<p>
+					Бюджетный и надежный материал.
+					Современные технологии и огромное
+					количество вариантов использования
+					превращают его в незаменимый ингредиент 
+					практически любого заведения.					
+				</p>
+			</div>
+		</div>
+		<div class="use-materials-item use-materials-item-5">
+			<div class="use-materials-item-img">
+				<img src="img/test-photo/test-bar-3.jpg" alt="">
+			</div>
+			<div class="use-materials-item-description">
+				<span>КАМЕНЬ</span>
+				<p>
+					Камень это один из самых простых,
+					но при этом сложных материалов.
+					И мы знаем о нем все!
+					Мы сможем правильно вписать камень в 
+					ваш проект и подчеркнуть его 
+					индивидуальность.					
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="forma-title">
+		<h2>
+			<span class="weight">ОСТАВТЕ ЗАЯВКУ</span>
+								И МЫ СВЯЖЕМСЯ С ВАМИ<br> 
+								С ДЕТАЛЬНЫМ ПРЕДЛОЖЕНИЕМ
+		</h2>
+	</div>
+	<div class="form-box">
+		<form class="evenform" method="post" action="">
+			<select class="styler styler-top" data-placeholder="Выберите тип заведения:">
+				<option></option>
+				<option class="styler" value="0">Дом</option>
+				<option class="styler" value="1">Офис</option>
+				<option class="styler" value="2">Бар</option>
+				<option class="styler" value="3">Ресторан</option>
+				<option class="styler" value="4">Кафе</option>
+				<option class="styler" value="5">Что-то</option>
+				<option class="styler" value="6">Что-то ещё</option>
+			</select>
+		<input type="text" placeholder="Гостевая площадь:">
+		<input type="text" placeholder="Площадь кухонных момещений:">
+		<input type="text" placeholder="Количество посадочных мест:">
+		<input type="text" placeholder="Приблизительная дата открытия:">
+		<input name="form-btn" value="ОСТАВИТЬ ЗАЯВКУ" class="design-btn red-form-btn form-btn" type="submit">
+	  </form>
+	</div>
+	<a href="#3" class="goods__banner">
+		<div class="goods__banner_content">
+			<span class="goods__banner_link"><span>ПОКУПКА МЕБЕЛИ 
+				В ЛИЗИНГ</span></span>
+		</div>
+									<img src="img/banner_1.jpg" alt="banner" class="goods__banner_img">
+							</a>
+</div>
+<div class="container">
+	<div class="title">
+		<span>Хранение</span>
+	</div>
+	<div class="storage storage-1">
+		<div class="storage-item-1">
+			<div class="storage-img-1">
+				<img src="img/bar-page/wine-case.jpg" alt="">
+			</div>
+			<div class="storage-description">
+				<h2>
+					ШКАФЫ 
+				</h2>
+				<p>
+					Один из самых важных элементов хранения как в домах, 
+					так и в ресторанах и барах. Компания ТехноБар сделает идеальный
+					шкаф по вашим размерам и укомплектует его удобными полками!					
+				</p>
+			</div>
+		</div>
+		<div class="storage-item">
+			<div class="storage-img-2">	
+				<img src="img/bar-page/wood-shelfs.jpg" alt="">
+			</div>
+			<div class="storage-description">
+				<h2>
+					стеллажи
+				</h2>
+				<p>
+					Благодаря стеллажам вы сможете грамотно зонировать пространство
+					вашего заведения. Мы реализуем любой формы и размера.
+					Нет ничего невозможного!					
+				</p>
+			</div>
 		</div>
     </div>
-    <a href="#3" class="goods__banner">
-        <div class="goods__banner_content">
-            <span class="goods__banner_link"><span>ПОКУПКА МЕБЕЛИ 
-                В ЛИЗИНГ  </span></span>
-        </div>
-            <img src="img/banner_1.jpg" alt="banner" class="goods__banner_img">
-    </a>
-</div>
-<div class="container">
-	<div class="title"><span>Торговая мебель</span></div>
-	<div class="trade-box">
-			<img src="img/main-page/trade-1.jpg" class="trade-style-img" alt="trade-1">
-			<img src="img/main-page/trade-2.png" class="trade-style trade-style-img" alt="">
-	         <div class="adap-trade">
-				 <div class="trade-3">
-				    <img src="img/main-page/trade-3.png" alt="">
-			    </div>
-				<div class="trade-hidden">
-				     <img src="img/main-page/trade-hide.jpg" alt="">
-			    </div>
-			</div>	
-			<div class="main-grid-description trade-description trade-style">
-                <h2>
-                    НАчем ПОСИДЕТЬ,<br>
-                    ЗА ЧЕМ Посидеть<br> 
-                    И ВСЕ ОСТАЛЬНОЕ
-                </h2>
-                <p>
-                    Рыбатекст используется дизайнерами, проектировщиками
-                    и фронтендерами, когда нужно быстро заполнить макеты
-                    или прототипы содержимым. Это тестовый контент,
-                    который не должен нести никакого смысла, лишь показать
-                    наличие самого текста или продемонстрировать
-                    типографику в деле.                
-                </p>
-               <a href="#"><div class="more-btn main-more-btn">ПОДРОБНЕЕ</div></a>
-            </div>
-			<img src="img/main-page/trade-4.jpg" class="trade-style last-trade trade-style-img" alt="">
-	</div>
-</div>
-<div class="container">
-	<div class="title"><span>СОБСТВЕННОЕ ПРОИЗВОДСТВО МЕБЕЛИ</span></div>
-	<div class="production">
-		<div class="production-item first-prod">
-			<img src="img/main-page/producntion.png" alt="prod.">
-			<div class="production-item-text">
-				<p>
-					Рыбатекст используется дизайнерами,
-					проектировщиками и фронтендерами,
-					когда нужно быстро заполнить макеты
-					или прототипы содержимым. 
-				</p>
-		    </div>
-		</div>
-		<div class="production-item production-item-3">
-			<img src="img/main-page/producntion.png" alt="prod.">
-			<div class="production-item-text">
-				<p>
-					Рыбатекст используется дизайнерами,
-					проектировщиками и фронтендерами,
-					когда нужно быстро заполнить макеты
-					или прототипы содержимым. 
-				</p>
-		    </div>
-			<a href="#"><div class="more-btn main-more-btn production-btn">ПРИМЕРЫ РАБОТ</div></a>
-		</div>
-		<div class="production-item first-prod">
-			<img src="img/main-page/producntion.png" alt="prod.">
-			<div class="production-item-text">
-				<p>
-					Рыбатекст используется дизайнерами,
-					проектировщиками и фронтендерами,
-					когда нужно быстро заполнить макеты
-					или прототипы содержимым. 
-				</p>
-		</div>
-	</div>
-  </div>
-</div>
-<div class="container">
-	<div class="title"><span>ПОПУЛЯРНЫЕ товары</span></div>
-	<div class="main-sliders">
-		<section class="goods">
-			<div class="container">
-										<div class="owl-carousel_main_subsect-js owl-carousel owl-theme">
-								
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12559">
-						<a href="/catalog/stul-love-wood-k-10-20441/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-love-wood-k-10-20441/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12497">
-					<a href="/catalog/stul-viena-10-20961/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-viena-10-20961/" class="goods__name goods__name-main name-good-black">ДИВАН 06-11001</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_13396">
-					<a href="/catalog/barnyy-stul-spiral-bar-10-21075/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/barnyy-stul-spiral-bar-10-21075/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_13400">
-						<a href="/catalog/stul-moryak-k-10-30534/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">										</a>
-							<a href="/catalog/stul-moryak-k-10-30534/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_14461">
-							<a href="/catalog/stul-911-turbo-bar-15-3016/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-911-turbo-bar-15-3016/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_4174">
-													<a href="/catalog/divan-06-1039/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/divan-06-1039/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_13390">
-												<a href="/catalog/barnyy-stul-delux-bar-chair-120-10-20183/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/barnyy-stul-delux-bar-chair-120-10-20183/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_14446">
-						<a href="/catalog/stul-kitos-15-3009/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-kitos-15-3009/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_14420">
-					<a href="/catalog/divan-06-1354/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/divan-06-1354/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_14441">
-					<a href="/catalog/stul-skandi-15-3006-slonovaya-kost/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-skandi-15-3006-slonovaya-kost/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12533">
-				<a href="/catalog/stul-flora-d-10-20257/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-flora-d-10-20257/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12539">
- 				            <a href="/catalog/stul-nil-10-20993/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-nil-10-20993/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12565">
-							<a href="/catalog/stul-naz-10-20992/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/stul-naz-10-20992/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_3885">
-						<a href="/catalog/divan-06-1289/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-													
-														</a>
-							<a href="/catalog/divan-06-1289/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_3785">
-					<a href="/catalog/banketka-06-5025/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/banketka-06-5025/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_13391">
-						<a href="/catalog/barnyy-stul-valy-bar-10-20906/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/barnyy-stul-valy-bar-10-20906/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_13393">
-						<a href="/catalog/barnyy-stul-cledan-bar-stool-10-20407/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" alt="">
-														</a>
-							<a href="/catalog/barnyy-stul-cledan-bar-stool-10-20407/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_14440">
-					<a href="/catalog/stul-skandi-15-3006-dub/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-														</a>
-							<a href="/catalog/stul-skandi-15-3006-dub/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12562">
-					<a href="/catalog/stul-tonet-10-20860/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-															
-														</a>
-							<a href="/catalog/stul-tonet-10-20860/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-				
-					<div class="item marg-five">
-						<div class="goods__item item-main-slider" id="bx_3966226736_12543">
-						<a href="/catalog/stul-merida-10-20494/" class="goods__poster">
-								<img src="img/main-page/sofa-owl.png" class="has-second-picture" alt="">
-															
-														</a>
-							<a href="/catalog/stul-merida-10-20494/" class="goods__name goods__name-main name-good-black">ДИВАН 06-1100</a>
-													
-							<div class="goods__price">ОТ 27 300 ₽</div>
-						</div>
-					</div>				
-						
-				</div>
-				
+	<div class="storage storage-2">
+		<div class="storage-item-1">
+			<div class="storage-img-1">
+				<img src="img/bar-page/station.jpg" alt="">
 			</div>
-		</section>
+			<div class="storage-description">
+				<h2>
+					СТЕЙШЕНЫ 
+				</h2>
+				<p>
+					Главное рабочее место всех официантов. И один из самых часто
+					используемых предметов мебели в каждом заведении.
+					Он должен быть не только функциональным, но и красивым!					
+				</p>
+			</div>
 		</div>
+		<div class="storage-item">
+			<div class="storage-img-2">	
+				<img src="img/bar-page/shels.jpg" alt="">
+			</div>
+			<div class="storage-description">
+				<h2>
+					ПОЛКИ
+				</h2>
+				<p>
+					Полка это не просто место, на которое можно что-то положить.
+					Сама по себе полка может являться декором. Мы делаем их 
+					так, чтобы они подчеркивали интерьер заведения!					
+				</p>
+			</div>
+		</div>
+    </div>
+	<div class="storage storage-3">
+		<div class="storage-item-3">
+			<div class="storage-img-1">
+				<img src="img/bar-page/ONE MORE THING.jpg" alt="">
+			</div>
+			<div class="storage-description storage-description-3">
+				<h2>
+					ONE MORE THING...
+				</h2>
+				<p>
+					Если вы не увидели у нас чего-то, это не значит,
+					что мы это не можем!
+					Оставьте нам заявку, и мы изготовим для Вас любую мебель!					
+				</p>
+				<a href="#"><div class="design-btn red-btn bar-btn">ОСТАВИТЬ ЗАЯВКУ</div></a>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="container">
+	<div class="title">
+		<span>
+			Прочие элементы интерьера  
+		</span>
+	</div>
+	<div class="other-elem-wrapper">
+		<div class="other-elem-img">
+			<div class="other-elem-img-item">
+				<img src="img/bar-page/linters.jpg" alt="">
+			</div>
+			<div class="other-elem-img-item">
+				<img src="img/bar-page/wood-panel.jpg" alt="">
+			</div>
+			<div class="other-elem-img-item">
+				<img src="img/bar-page/mirrors.jpg" alt="">
+			</div>
+		</div>
+		<div class="other-elem-description">
+			<h2>
+				КОМПЛЕКСНЫЕ РЕШЕНИЯ ДЛЯ
+				ВАШЕГО ПРОСТРАНСТВА 
+			</h2>
+			<p>Но и это еще не все! <br>
+				Компания ТехноБар поможет вам укомплектовать не только мебель!
+				Освещение, декоративные панели и зеркала будут идеально
+				подобраны, доставлены и смонтированы на вашем объекте!				
+			</p>
+			<a href="#"><div class="design-btn red-btn bar-btn">ОСТАВИТЬ ЗАЯВКУ</div></a>
+		</div>
+	</div>
+	<a href="#3" class="goods__banner">
+		<div class="goods__banner_content">
+			<span class="goods__banner_link"><span>ПОКУПКА МЕБЕЛИ 
+				В ЛИЗИНГ</span></span>
+		</div>
+									<img src="img/banner_1.jpg" alt="banner" class="goods__banner_img">
+							</a>
+</div>
+<div class="container example-container">
+	<div class="title">
+		<span>
+			ПРИМЕРЫ РАБОТ
+		</span>
+	</div>
+	<div class="example_1">
+		<div class="example-wrap">
+          <div class="ex-item">
+			  <img src="img/guss.jpg" alt="example">
+			  <div class="example-text">
+			  <p>
+				  <span>Рыбатекст<br> используется дизайнерами,</span>
+				  проектировщиками и фронтендерами, 
+				  когда нужно быстро заполнить макеты
+				  или прототипы содержимым. 
+			  </p>
+			  </div>
+			  <div class="more-button">
+				<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+			</div>
+		  </div>
+		  <div class="ex-item-shape">
+			  <div class="ex-item-shape-photo">
+			<img src="img/BusinessClub.png" alt="example">
+		      </div>
+			<div class="ex-item-shape-text">
+				
+			<p>
+				<span>Рыбатекст<br> используется дизайнерами,</span>
+				проектировщиками и фронтендерами, 
+				когда нужно быстро заполнить макеты
+				или прототипы содержимым. 
+			</p>
+
+			<div class="more-button">
+				<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+			</div>
+		   </div>
+		  </div>
+		</div>
+		  <div class="ex-item">
+			<img src="img/design-hotel.jpg" alt="example">
+			<div class="example-text">
+			<p>
+				<span>Рыбатекст<br> используется дизайнерами,</span>
+				проектировщиками и фронтендерами, 
+				когда нужно быстро заполнить макеты
+				или прототипы содержимым. 
+			</p>
+			</div>
+			<div class="more-button">
+				<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+			</div>
+		  </div>
+	</div>
+	<div class="example_2">
+		<div class="example_item example-2-item">
+			<img src="img/villa1.jpg" alt="example">
+			<div class="example-text">
+			<p>
+				<span>Рыбатекст<br> используется дизайнерами,</span>
+				проектировщиками и фронтендерами, 
+				когда нужно быстро заполнить макеты
+				или прототипы содержимым. 
+			</p>
+			</div>
+			<div class="more-button">
+				<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+			</div>
+		</div>
+		<div class="example_item">
+			<img src="img/park.jpg" alt="example">
+			<div class="example-text">
+			<p>
+				<span>Рыбатекст<br> используется дизайнерами,</span>
+				проектировщиками и фронтендерами, 
+				когда нужно быстро заполнить макеты
+				или прототипы содержимым. 
+			</p>
+			</div>
+			<div class="more-button">
+				<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="container">
-	<div class="title-news">
-		<div class="title-news-item title-news-item-first">
-			<span>АКЦИИ</span>
-		</div>
-		<div class="title-news-item title-news-item-second">
-			<span>
-				НОВОСТИ
-			</span>
-		</div>
-	</div>
-	<div class="title title-news-item-first title-hidden">
-		<span>АКЦИИ</span>
-	</div>
-<div class="news">
-	<div class="news-wrapper">
-		<div class="news-wrapper-item news-wrapper-item-on">
-			<div class="stock stock-on">
-				<div class="stock-img">
-					<img src="img/main-page/coffee-table.png" alt="coffee_table">
-					<span>СКИДКА НА КОМПЛЕКСНОЕ РЕШЕНИЕ</span>
-				</div>
-				<div class="stock-img-description">
-					<p>
-					<span>С 15 марта по 15 апреля</span><br>
-					Рыбатекст используется дизайнерами,
-					проектировщиками и фронтендерами,
-					когда нужно быстро заполнить макеты
-					или прототипы содержимым. 
-					</p>
-				</div>
-			</div>
-		</div>
-	<div class="news-wrapper-item">
-		<div class="stock first-stock">
-			<div class="stock-img">
-				<img src="img/main-page/coffee-table.png" alt="coffee_table">
-				<span>СКИДКА НА КОМПЛЕКСНОЕ РЕШЕНИЕ</span>
-			</div>
-			<div class="stock-img-description">
-				<p>
-				<span>С 15 марта по 15 апреля</span><br>
-				Рыбатекст используется дизайнерами,
-				проектировщиками и фронтендерами,
-				когда нужно быстро заполнить макеты
-				или прототипы содержимым. 
-				</p>
-			</div>
-		</div>
-		<div class="stock">
-			<div class="stock-img">
-				<img src="img/main-page/coffee-table.png" alt="coffee_table">
-				<span>СКИДКА НА КОМПЛЕКСНОЕ РЕШЕНИЕ</span>
-			</div>
-			<div class="stock-img-description">
-				<p>
-				<span>С 15 марта по 15 апреля</span><br>
-				Рыбатекст используется дизайнерами,
-				проектировщиками и фронтендерами,
-				когда нужно быстро заполнить макеты
-				или прототипы содержимым. 
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="container this-container">
-		<div class="title title-hidden">
-			<span>НОВОСТИ</span>
-		</div>
-    </div>
-	
-     <div class="news-anwrapper">
-		<div class="news-wrapper-item">
-			<div class="stock right-first-stock">
-				<img src="img/main-page/kitchen.png" alt="kitchen">
-				<div class="right-text-wrapper">
-					<h2>ОТКРЫТИЕ НОВОГО Кафе<br> 
-						В ЦЕНТРЕ МОСКВЫ</h2>
-					<p>
-						Рыбатекст используется дизайнерами,
-						проектировщиками и фронтендерами, когда
-						нужно быстро заполнить макеты или прототипы 
-						содержимым. Это тестовый контент, который
-						не должен нести никакого смысла, лишь показать
-						наличие самого текста или продемонстрировать
-						типографику в деле.<br>
-						<span>15 апреля</span> 
-					</p>
-			   </div>
-			</div>
-			<div class="stock">
-				<img src="img/main-page/kitchen.png" alt="kitchen">
-				<div class="right-text-wrapper">
-					<h2>ОТКРЫТИЕ НОВОГО Кафе<br> 
-						В ЦЕНТРЕ МОСКВЫ</h2>
-					<p>
-						Рыбатекст используется дизайнерами,
-						проектировщиками и фронтендерами, когда
-						нужно быстро заполнить макеты или прототипы 
-						содержимым. Это тестовый контент, который
-						не должен нести никакого смысла, лишь показать
-						наличие самого текста или продемонстрировать
-						типографику в деле.<br>
-						<span>15 апреля</span> 
-					</p>
-			    </div>
-			</div>
-		</div>
-		<div class="news-wrapper-item news-wrapper-item-off">
-			<div class="stock stock-off">
-				<img src="img/main-page/kitchen.png" alt="kitchen">
-				<div class="right-text-wrapper">
-					<h2>ОТКРЫТИЕ НОВОГО Кафе<br> 
-						В ЦЕНТРЕ МОСКВЫ</h2>
-					<p>
-						Рыбатекст используется дизайнерами,
-						проектировщиками и фронтендерами, когда
-						нужно быстро заполнить макеты или прототипы 
-						содержимым. Это тестовый контент, который
-						не должен нести никакого смысла, лишь показать
-						наличие самого текста или продемонстрировать
-						типографику в деле.<br>
-						<span>15 апреля</span> 
-					</p>
-			    </div>
-			</div>
-		</div>
-	 </div>
-	</div>
-</div>
+
+
 <div class="container">
 	<div class="title"><span>Другие категории</span></div>
 </div>	
@@ -1438,43 +1469,6 @@
 </li>
 </ul>
 </div>
-</div>
-<div class="container main_page_after_test paragraph">
-	<div>
-		<p>
-			 ТехноБар – компания идущая в ногу со временем. Отдавая предпочтение передовым трендам мебели HoReCa мы не забываем о проверенных, классических направлениях. Мы предлагаем полный комплекс услуг для организаций общественного питания: ресторанов, баров, кафе, гостиниц и хостелов. У нас представлено новейшее оборудование от ведущих мировых производителей, современная, стильная и комфортная мебель для кафе, баров и ресторанов. Широкий ассортимент в нашем каталоге каталоге позволит найти решение даже для самых изысканных интерьеров. Ассортимент представлен такими категориями товаров, как:
-		</p>
-		<ul>
-			<li>Стулья и столы.</li>
-			<li>Кресла и диваны.</li>
-			<li>Банкетная и плетеная мебель.</li>
-			<li>Подстолья и столешницы.</li>
-			<li>Состаренная мебель.</li>
-			<li>Барные стойки и ресепшен.</li>
-		</ul>
-		<p>
-			 Отдельное внимание заслуживает большой выбор мебели, реализованной в стиле лофт. Она отлично подходит для баров с кирпичными и бетонными стенами, а также легко вписывается в индустриальные интерьеры.
-		</p>
-		<p>
-			 Наши основные преимущества:
-		</p>
-		<ul>
-			<li>Компания ТехноБар, на рынке с 2008 года, мы имеем множество реализованных <a href="/about/portfolio/">успешных проектов</a>.</li>
-			<li>Собственное многопрофильное <a href="/about/">производство</a> с использованием современного оборудования.</li>
-			<li>Большой выбор только качественных материалов для изготовления и отделки мебели.</li>
-			<li>Услуги реализации <a href="/design-engineering/">проекта под ключ</a>, в том числе проектирование, подбор мебели под дизайн проекта.</li>
-			<li>Привлекательная стоимость изготовления мебели.</li>
-			<li><a href="/service/">Гарантийное</a> и постгарантийное обслуживание.</li>
-		</ul>
-	</div>
-	<div>
-		<p>
-			 Ассортимент нашей продукции поистине огромен, каким бы ни был интерьер Вашего заведения, Вы всегда сможете подобрать для него современную, комфортную, оригинальную обстановку, прекрасно гармонирующую со стилистикой помещения. Мы создаем изделия, которые становятся настоящей изюминкой интерьера, украшением каждого зала. Наглядный каталог с фотографиями, описаниями, вариантами исполнения, позволяет подробно ознакомиться с каждым товаром, Вы с легкостью можете формировать интерьер помещений, выбирая самые подходящие модели для Ваших заведений. Мебель для кафе представлена в богатстве дизайнерских находок и цветовых решений, стилей и направлений. Столы и стулья, мягкие диваны и кресла, банкетная и уличная мебель, разнообразная мебельная продукция представляется вниманию наших клиентов.
-		</p>
-		<p>
-			 Если Вас интересует стильная мебель для бара, купить ее можно у нас в самых различных вариациях. Но какой бы вариант Вы ни выбрали, это будет эргономичная, функциональная, красивая обстановка, которая, несомненно, будет привлекать внимание посетителей и способствовать доходности Вашего предприятия. Представленная у нас в разнообразии расцветок и форм различных моделей мебель для ресторанов позволяет роскошно обставить любые помещения, как небольшие залы, так и огромные. Комфортабельные, удобные предметы меблировки обеспечат самые лучшие условия для отдыха гостей, Вам остается только выбрать те варианты, которые наилучшим образом впишутся в интерьер Ваших помещений.
-		</p>
-	</div>
 </div>
 <!-- FOOTER -->
 <footer class="footer">

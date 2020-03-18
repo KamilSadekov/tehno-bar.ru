@@ -1,0 +1,278 @@
+*{
+    outline: none !important;
+    box-sizing: border-box; 
+}
+img{
+    max-width: 100%;
+}
+@mixin flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+@mixin titleSize{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 32px;
+}
+@mixin textSize{
+    color: #010000;
+    font-size: 18px;
+    font-weight: 300;
+}
+@mixin textDecorate{
+    text-align: right;
+}
+$bckg-color: #ffffff;
+$bar-stand: 484px;
+$mar-btw: 45px;
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "HelveticaNeueCyr";
+}
+.bar-stand{
+    @include flex;
+    margin-bottom: 102px;
+    & h2{
+         @include titleSize;
+    }
+    & p{
+        @include textSize;
+    }
+    &-description-first{
+        text-align: right;
+        margin-left: auto;
+    }
+    &-description{
+        max-width: $bar-stand;
+    }
+    &-item-1{
+        margin-right: $mar-btw;
+    }
+}
+.bar-edge{
+    @include flex;
+    &-item h2{
+        @include titleSize;
+    }
+    &-item p{
+            @include textSize;
+    }
+    &-item-1,
+    &-item-2{
+        max-width: $bar-stand;
+        @include flex;
+        flex-direction: column;
+        max-width: 393px;
+    }
+    &-item-3{
+        max-width: 658px;
+        text-align: center;
+        margin-left: 112px;
+        margin-right: 112px;
+    } 
+    &-description-right{
+        @include textDecorate;
+    }
+    &-description-3{
+        max-width: 100%;
+        position: relative;
+        background-color: $bckg-color;
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: -70px;
+        padding: 0 30px;
+        & span{
+            font-weight: 500;
+            display: block;
+        }
+        &::after{
+            content: '';
+            width: 1px;
+            height: 73px;
+            position: absolute;
+            left: 50%;
+            background-color: #000;
+            bottom: -90;
+        }
+    }
+}
+.use-materials{
+    @include flex;
+    &-title{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 0;
+        font-size: 30px;
+        & span{
+            font-weight: 300;
+        }
+    }
+    &-item{
+        &-1,
+        &-5{
+            margin-top: 172px;
+            max-width: 334px;
+        }
+        &-1{
+            margin-right: 36px;
+        }
+        &-5{
+            margin-left: 36px;
+        }
+        &-2,
+        &-4{
+            margin-top: 90px;
+            max-width: 334px;
+        }
+        &-3{
+            max-width: 334px;
+            margin-left: 36px;
+            margin-right: 36px;
+        }
+        & span{
+            color: #020000;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        & p{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &-description{
+            margin-top: 32px;
+        }
+    }
+}
+.storage{
+    @include flex;
+    &-item{
+        max-width: 755px;
+    }
+    &-1,
+    &-2{
+        margin-bottom: 60px;
+    }
+    &-item-1{
+        text-align: right;
+        max-width: 755px;
+        margin-right: $mar-btw;
+    }
+    &-item-3{
+        text-align: center;
+        max-width: 755px;
+    }
+    &-description-3{
+        max-width: 100%;
+        position: relative;
+        background-color: $bckg-color;
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: -70px;
+        padding: 0 30px;
+        & p{
+            margin-bottom: 60px;
+        }
+        div.bar-btn{
+            width: 374px;
+            margin-right: 0;
+            padding: 16px 0;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+    &-3{
+        @include flex;
+        justify-content: center;
+    }
+    &-description h2{
+        @include titleSize;
+    }
+    &-description p{
+        @include textSize;
+    }
+}
+.other-elem-img{
+    @include flex;
+    &-item{
+        margin-right: 5px;
+    }
+    &-item:last-of-type{
+        margin-right: 0;
+    }
+}
+.other-elem-description{
+    max-width: 789px;
+    text-align: center;
+    position: relative;
+    background-color: $bckg-color;
+    margin-top: -70px;
+    padding: 0 145px;
+    & h2{
+        @include titleSize;
+    }
+    & p{
+        @include textSize;
+        margin-bottom: 36px;
+    }
+    div.bar-btn {
+        width: 262px;
+        margin-right: 0;
+        padding: 16px 0;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+.other-elem-wrapper{
+    @include flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar-btn{
+    padding: 16px 0;
+}
+.features__item{
+    margin-left: unset;
+    margin-right: 70px;
+    &:last-of-type{
+        margin-right: 0;
+    }
+}
+.features__list{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 991px){
+    .bar-features{
+        margin-right: 0;
+    }
+    .features__middle::before {
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        border-bottom: 1px solid #000006;
+        width: 3rem;
+        margin-left: 4rem;
+    }
+    .bar-stand{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bar-stand-description{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bar-stand-item-1 {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
