@@ -256,6 +256,156 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.top-photo{
+    margin-right: 0;
+}
+div.main-right-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.main-right {
+    max-width: 987px;
+    margin-left: 15px;
+}
+.main-left {
+    max-width: 450px;
+    margin-right: 80px;
+}
+.main-left {
+    max-width: 474px;
+    margin-right: 80px;
+}
+.main-grid-photos {
+    justify-content: space-between;
+}
+.main-right {
+    max-width: 905px;
+    margin-left: 15px;
+}
+.main-left-items-img-1{
+    margin-bottom: 16px; 
+    margin-left: 55px;
+    position: relative;
+}
+.top-photo{
+    margin-left: 55px;
+}
+.main-left-items-img-2,
+.main-right-top,
+.first-right,
+.right-bottom-last{
+    position: relative;
+    display: inline-block;
+}
+.main-left-items-img-2,
+.right-bottom-last,
+.first-right,
+.main-left-items-img-1,
+.top-photo{
+    overflow: hidden;
+}
+.top-photo:hover 
+.goods-eq-title{
+    height: 80px;
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+.top-photo:not(:hover) 
+.goods-eq-title{
+    transition-duration: 0.3s;
+}
+.main-left-items-img-1:hover
+.goods-eq-title{
+    height: 80px;
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+.main-left-items-img-2:hover
+.goods-eq-title{
+    height: 80px;
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+.main-left-items-img-1:not(:hover) 
+.goods-eq-title{
+    transition-duration: 0.3s;
+}
+.main-left-items-img-2:not(:hover) 
+.goods-eq-title{
+    transition-duration: 0.3s;
+}
+.first-right:hover
+.goods-eq-title{
+    height: 80px;
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+.right-bottom-last:hover
+.goods-eq-title{
+    height: 80px;
+    transition-duration: 0.3s;
+    opacity: .8;
+}
+.first-right:not(:hover) 
+.goods-eq-title{
+    transition-duration: 0.3s;
+}
+.right-bottom-last:not(:hover) 
+.goods-eq-title{
+    transition-duration: 0.3s;
+}
+.main-left-items-img-2 img:hover,
+.right-bottom-last img:hover,
+.first-right img:hover,
+.main-left-items-img-1 img:hover,
+.top-photo img:hover {
+    transform: scale(1.1);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.main-left-items-img-2 img:not(:hover),
+.right-bottom-last img:not(:hover),
+.first-right img:not(:hover),
+.main-left-items-img-1 img:not(:hover),
+.top-photo img:not(:hover){
+    transform: unset;
+    transition: opacity 0.5s, transform 0.5s;
+}
+.goods-eq-title:hover
+.main-left-items-img-2 img,
+.right-bottom-last img,
+.first-right img,
+.main-left-items-img-1 img,
+.top-photo img{
+    transform: scale(1.1);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.goods-eq-title:not(:hover)
+.main-left-items-img-2 img,
+.right-bottom-last img,
+.first-right img,
+.main-left-items-img-1 img,
+.top-photo img{
+    transform: unset;
+    transition: opacity 0.5s, transform 0.5s;
+}
+.goods-eq-title{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 313px;
+    color: #fff;
+    height: 63px;
+    background-color: rgb(225,5,20);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.eq-banner{
+    margin-bottom: 100px;
+}
 @media screen and (max-width: 1315px){
     .design-frame::before {
         border-width: 20px;
