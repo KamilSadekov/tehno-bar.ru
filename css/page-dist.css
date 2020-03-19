@@ -353,8 +353,13 @@ body {
     text-align: right;
   }
 
+  .use-materials-item-1,
+.use-materials-item-2 {
+    margin-bottom: 40px;
+  }
+
   .use-materials-item-2, .use-materials-item-4 {
-    margin-top: 40px;
+    margin-top: 0;
     max-width: 334px;
   }
 
@@ -370,11 +375,26 @@ body {
 
   .use-materials-item-5 {
     margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .use-materials-title h2 {
+    margin-bottom: 0;
+  }
+
+  .bar-edge-description-3 {
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+
+  .use-materials-item p {
+    font-size: 16px;
+    font-weight: 300;
   }
 }
 @media screen and (max-width: 884px) {
   .bar-edge-item-3 {
-    max-width: 658px;
+    max-width: 100%;
     text-align: center;
     margin-left: 0;
     margin-right: 0;
@@ -384,12 +404,12 @@ body {
 
   .bar-edge-item-1 {
     order: 1;
-    margin-right: -200px;
+    margin-right: -330px;
   }
 
   .bar-edge-item-2 {
     order: 3;
-    margin-left: -200px;
+    margin-left: -330px;
   }
 
   .storage-description-3 {
@@ -452,8 +472,7 @@ body {
     text-align: center;
   }
 
-  .use-materials-item-3,
-.use-materials-item-4 {
+  .use-materials-item-4 {
     margin-top: 40px;
   }
 
@@ -464,6 +483,29 @@ body {
   .use-materials-item p {
     font-size: 18px;
     font-weight: 300;
+  }
+
+  .bar-edge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bar-edge-item-1,
+.bar-edge-item-2 {
+    order: 1;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .bar-edge-item-3 {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    order: 2;
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 558px) {
@@ -484,32 +526,6 @@ body {
   .features__item {
     margin-left: unset;
     margin-right: 0;
-  }
-
-  .bar-edge-item-3 {
-    max-width: 658px;
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    order: 3;
-    margin-top: 0;
-  }
-
-  .bar-edge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .bar-edge-item-1 {
-    order: 1;
-    margin-right: 0;
-  }
-
-  .bar-edge-item-2 {
-    order: 3;
-    margin-left: 0;
   }
 
   .storage {
@@ -564,5 +580,24 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .bar-stand h2,
+.bar-edge-item h2,
+.storage-description h2,
+.other-elem-description h2 {
+    font-size: 23px;
+  }
+
+  .use-materials-title h2 {
+    font-weight: 500;
+  }
+
+  .storage-description p,
+.other-elem-description p,
+.use-materials-item p,
+.bar-edge-item p,
+.bar-stand p {
+    font-size: 16px;
   }
 }
