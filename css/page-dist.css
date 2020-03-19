@@ -409,20 +409,12 @@ div.main-right-bottom {
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.goods-eq-title:hover .main-left-items-img-2 img,
-.right-bottom-last img,
-.first-right img,
-.main-left-items-img-1 img,
-.top-photo img {
+.goods-eq-title:hover .top-photo img {
   transform: scale(1.1);
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.goods-eq-title:not(:hover) .main-left-items-img-2 img,
-.right-bottom-last img,
-.first-right img,
-.main-left-items-img-1 img,
-.top-photo img {
+.goods-eq-title:not(:hover) .top-photo img {
   transform: unset;
   transition: opacity 0.5s, transform 0.5s;
 }
