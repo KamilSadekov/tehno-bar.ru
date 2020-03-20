@@ -276,6 +276,27 @@ div.main-right-bottom {
     max-width: 474px;
     margin-right: 80px;
 }
+.place-item-img-1 img{
+    transition-duration: .4s;
+}
+.place-item-img-1
+.goods-eq-title{
+    transition-duration: .4s;
+}
+.place-item-img-1{
+    overflow: hidden;
+    background: #000;
+}
+.place-item-img-1:hover
+.goods-eq-title{
+   opacity: 0.8;
+   height: 75px;
+}
+.place-item-img-1:hover
+img{
+ transform: scale(1.1);
+ opacity: 0.8;
+}
 .main-grid-photos {
     justify-content: space-between;
 }
@@ -298,91 +319,6 @@ div.main-right-bottom {
     position: relative;
     display: inline-block;
 }
-.main-left-items-img-2,
-.right-bottom-last,
-.first-right,
-.main-left-items-img-1,
-.top-photo{
-    overflow: hidden;
-}
-.top-photo:hover 
-.goods-eq-title{
-    height: 80px;
-    transition-duration: 0.3s;
-    opacity: .8;
-}
-.top-photo:not(:hover) 
-.goods-eq-title{
-    transition-duration: 0.3s;
-}
-.main-left-items-img-1:hover
-.goods-eq-title{
-    height: 80px;
-    transition-duration: 0.3s;
-    opacity: .8;
-}
-.main-left-items-img-2:hover
-.goods-eq-title{
-    height: 80px;
-    transition-duration: 0.3s;
-    opacity: .8;
-}
-.main-left-items-img-1:not(:hover) 
-.goods-eq-title{
-    transition-duration: 0.3s;
-}
-.main-left-items-img-2:not(:hover) 
-.goods-eq-title{
-    transition-duration: 0.3s;
-}
-.first-right:hover
-.goods-eq-title{
-    height: 80px;
-    transition-duration: 0.3s;
-    opacity: .8;
-}
-.right-bottom-last:hover
-.goods-eq-title{
-    height: 80px;
-    transition-duration: 0.3s;
-    opacity: .8;
-}
-.first-right:not(:hover) 
-.goods-eq-title{
-    transition-duration: 0.3s;
-}
-.right-bottom-last:not(:hover) 
-.goods-eq-title{
-    transition-duration: 0.3s;
-}
-.main-left-items-img-2 img:hover,
-.right-bottom-last img:hover,
-.first-right img:hover,
-.main-left-items-img-1 img:hover,
-.top-photo img:hover {
-    transform: scale(1.1);
-    transition: opacity 0.5s, transform 0.5s;
-}
-
-.main-left-items-img-2 img:not(:hover),
-.right-bottom-last img:not(:hover),
-.first-right img:not(:hover),
-.main-left-items-img-1 img:not(:hover),
-.top-photo img:not(:hover){
-    transform: unset;
-    transition: opacity 0.5s, transform 0.5s;
-}
-.goods-eq-title:hover
-.top-photo img{
-    transform: scale(1.1);
-    transition: opacity 0.5s, transform 0.5s;
-}
-
-.goods-eq-title:not(:hover)
-.top-photo img{
-    transform: unset;
-    transition: opacity 0.5s, transform 0.5s;
-}
 .goods-eq-title{
     position: absolute;
     right: 0;
@@ -397,6 +333,92 @@ div.main-right-bottom {
 }
 .eq-banner{
     margin-bottom: 100px;
+}
+.place-item-img {
+    position: relative;
+    max-width: 491px;
+}
+.place-item-wrapper{
+    max-width: 491px;
+}
+.main-grid-description-first p{
+    line-height: 2.1;
+}
+.place-item-2,
+.place-item-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.place-item-wrapper{
+    margin-right: 63px;
+}
+.place-item-wrapper:last-of-type{
+    margin-right: 0;
+}
+.eq-item-1{
+    flex: 100%;
+    margin-bottom: 15px;
+}
+.form-eq-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.form-eq-box {
+    background-color: #fff;
+    margin-left: -200px;
+    width: 717px;
+    padding: 69px;
+    align-self: center;
+    position: relative;
+}
+.evenform input:last-of-type {
+    display: none;
+}
+.progress-numbers{
+    font-size: 100px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #e20514;
+    position: absolute;
+    right: 0;
+    top: -104px;
+}
+.weight-one{
+    font-weight: 500;
+}
+.forma-title h2 {
+    margin-bottom: 0;
+}
+.place-item-img img{
+    transition-duration: 0.4s;
+}
+.place-item-img .goods-eq-title{
+    transition-duration: 0.4s;
+}
+.place-item-img{
+    overflow: hidden;
+    background: #000;
+}
+.place-item-img:hover
+.goods-eq-title{
+   opacity: 0.8;
+   height: 75px;
+}
+.place-item-img:hover
+img{
+ transform: scale(1.1);
+ opacity: 0.8;
+}
+.goods-eq-title{
+    display: flex;
+    align-items: center;
+}
+.goods-eq-title span{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
 }
 @media screen and (max-width: 1315px){
     .design-frame::before {

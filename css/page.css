@@ -176,6 +176,9 @@ body{
     font-weight: 300;
     margin-bottom: 35px;
 }
+.eq-item-shape-photo{
+    background: url('../img/equipment/Aviapark.jpg') no-repeat top;
+}
 .ready-number{
     padding-top: 100px;
     display: flex;
