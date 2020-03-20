@@ -411,6 +411,9 @@ img{
  transform: scale(1.1);
  opacity: 0.8;
 }
+.place-item-1{
+    margin-bottom: 77px;
+}
 .goods-eq-title{
     display: flex;
     align-items: center;
@@ -419,6 +422,19 @@ img{
     font-size: 20px;
     font-weight: 600;
     padding-left: 30px;
+}
+.eq-form-box{
+    padding: 0;
+    max-width: 441px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.eq-form-box-2{
+    margin-top: 50px;
+    margin-bottom: 77px;
+}
+.eq-form-box-1{
+    margin-bottom: 99px;
 }
 @media screen and (max-width: 1315px){
     .design-frame::before {
