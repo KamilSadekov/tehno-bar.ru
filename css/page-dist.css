@@ -367,6 +367,7 @@ div.main-right-bottom {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
+  opacity: 0.8;
 }
 
 .eq-banner {
@@ -497,6 +498,114 @@ div.main-right-bottom {
   margin-bottom: 99px;
 }
 
+@media screen and (max-width: 1790px) {
+  .main-left {
+    display: flex;
+  }
+
+  .main-grid-description-first {
+    display: none;
+  }
+}
+@media screen and (max-width: 1613px) {
+  .main-grid-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-right {
+    max-width: 100%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-right-bottom {
+    flex-direction: column;
+  }
+
+  .main-right-top {
+    max-width: 421px;
+  }
+
+  .top-photo {
+    margin-left: 0;
+  }
+
+  .main-left-items-img-1 {
+    margin-bottom: 40px;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .main-left-items-img-2 {
+    margin-bottom: 40px;
+  }
+
+  .main-left {
+    max-width: unset;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  div.main-right-bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .first-right {
+    margin-right: 0;
+  }
+
+  .right-bottom-last {
+    max-width: unset;
+    margin-right: 0;
+  }
+
+  .main-left-items {
+    width: 100%;
+    align-items: center;
+  }
+
+  .place-item-img-1 {
+    margin-bottom: 40px;
+  }
+
+  .right-bottom-last {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1365px) {
+  .place-item-2, .place-item-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .place-item-1 {
+    margin-bottom: 40px;
+  }
+
+  .place-item-wrapper {
+    margin-right: 0;
+  }
+
+  .place-item-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .place-item-wrapper:last-of-type {
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 1315px) {
   .design-frame::before {
     border-width: 20px;
