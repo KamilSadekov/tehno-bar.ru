@@ -200,6 +200,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   justify-content: center;
+  margin-bottom: 110px;
 }
 .storage-description h2 {
   color: #000000;
@@ -262,6 +263,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 92px;
 }
 
 .bar-btn {
@@ -421,11 +423,9 @@ div.main-right-bottom {
   align-self: center;
   position: relative;
 }
-
-.evenform input:last-of-type {
+.evenform input.eq-form-btn{
   display: none;
 }
-
 .progress-numbers {
   font-size: 100px;
   font-weight: 100;
@@ -630,10 +630,22 @@ div.main-right-bottom {
   }
 }
 @media screen and (max-width: 991px) {
+  .storage-3 {
+    margin-bottom: 14px;
+}
+  form.bar-form {
+    margin-bottom: 90px;
+}
+  .use-materials {
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+  .use-materials-item-3 {
+    margin-bottom: 40px;
+}
   .bar-features {
     margin-right: 0;
   }
-
   .features__middle::before {
     content: "";
     position: absolute;
@@ -647,8 +659,12 @@ div.main-right-bottom {
   .bar-stand {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 42px;
   }
 
+.bar-example_2{
+  margin-bottom: 0;
+}
   .bar-stand-description {
     text-align: center;
     margin-left: auto;
@@ -663,9 +679,8 @@ div.main-right-bottom {
   .use-materials {
     flex-wrap: wrap;
   }
-
   .use-materials-item-1, .use-materials-item-5 {
-    margin-top: 40px;
+    margin-top: 0;
     max-width: 334px;
   }
 
@@ -677,14 +692,16 @@ div.main-right-bottom {
 .use-materials-item-3 {
     text-align: right;
   }
-
+.use-materials-item-2{
+  margin-top: 0;
+}
   .use-materials-item-1,
 .use-materials-item-2 {
     margin-bottom: 40px;
   }
 
   .use-materials-item-2, .use-materials-item-4 {
-    margin-top: 0;
+    /* margin-top: 0; */
     max-width: 334px;
   }
 
@@ -767,6 +784,10 @@ div.main-right-bottom {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .other-elem-description div.bar-btn{
+    width: 446px;
+    padding: 24px 0;
+  }
 
   .storage-img-1 img {
     max-width: 100%;
@@ -798,7 +819,7 @@ div.main-right-bottom {
   }
 
   .use-materials-item-4 {
-    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .use-materials-item-5 {
@@ -830,7 +851,7 @@ div.main-right-bottom {
     margin-left: 0;
     margin-right: 0;
     order: 2;
-    margin-top: 40px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 558px) {
@@ -925,4 +946,29 @@ div.main-right-bottom {
 .bar-stand p {
     font-size: 16px;
   }
+
+  .other-elem-description div.bar-btn{
+    width: 262px;
+    padding: 16px 0;
+  }
+  .use-materials-item-description {
+    margin-top: 12px;
+  }
+  .use-materials-item-4{
+    margin-bottom: 40px;
+  }
+  .other-elem-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+form.bar-form{
+  margin-bottom: 40px;
+}
+.storage-description-3 p {
+  margin-bottom: 30px;
+}
 }
