@@ -108,7 +108,6 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 81px;
 }
 .left-photos{
     flex-basis: 562px;
@@ -945,6 +944,9 @@ div.features__title {
 div.features__icon {
     height: 10rem;
 }
+.stock-item:nth-child(1){
+    margin-bottom: 45px;
+}
 .features__list {
     display: -webkit-box;
     display: flex;
@@ -1032,14 +1034,14 @@ div.features__icon {
 }
 .main-right-top{
     display: flex;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     align-items: flex-start;
     justify-content: flex-end;
 }
 
 .main-right-bottom{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 .trade-box{
     display: flex;
