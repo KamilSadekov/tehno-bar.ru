@@ -453,10 +453,13 @@ div.goods__list{
 .form-box{
     padding: 15px 20px;
 }
-.evenform , .form-box{
+.form-box{
     margin-left: auto;
     margin-right: auto;
     max-width: 717px;
+}
+.evenform{
+    width: 100%;
 }
 form.bar-form{
     margin-bottom: 80px;
