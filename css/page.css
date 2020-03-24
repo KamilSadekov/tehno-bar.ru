@@ -117,7 +117,7 @@ body{
     flex-basis: 562px;
     margin-right: 15px;
 }
-.left-photos img:first-of-type{
+.left-mainp-photos{
    margin-bottom: 14px;
 }
 .grid-description {
@@ -1050,7 +1050,7 @@ div.features__icon {
 
 .main-right-bottom{
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
 }
 .trade-box{
     display: flex;
@@ -1305,7 +1305,7 @@ div.mainp-text-grid{
     display: none;
 }
 .first-right{
-    margin-right: 16px;
+    margin-right: 10px;
 }
 .trade-hidden{
     display: none;
@@ -1337,6 +1337,9 @@ div.mainp-text-grid{
 .news-side{
     display: flex;
     width: 50%;
+}
+.small-1{
+    display: none;
 }
 @media screen and (max-width: 1960px){
     .main-grid-container{
@@ -1538,6 +1541,9 @@ div.mainp-text-grid{
     .stock {
         max-width: 100%;
     }
+    .stock-item:nth-child(1){
+        margin-bottom: 0;
+    }
 
 }
 @media screen and (max-width: 1612px){
@@ -1650,6 +1656,19 @@ div.mainp-text-grid{
         margin-top: -90px;
         position: relative;
     }
+    .main-right-bottom{
+        display: flex;
+        justify-content: flex-start;
+    }
+    div.main-more-btn-wr-style{
+        margin-top: 0;
+    }
+    .big-1{
+        display: none;
+    }
+    .small-1{
+        display: inline-block;
+    }
     .rest-description h2{
         font-size: 30px;
     }
@@ -1683,6 +1702,9 @@ div.mainp-text-grid{
     .first-right{
         display: none;
     }
+    .text-grid p{
+        margin-bottom: 0;
+    }
     .img-change{
         display: inline-block;
     }
@@ -1705,7 +1727,7 @@ div.mainp-text-grid{
         margin-top: 10px;
     }
     .yellow{
-        margin-right: 15px;
+        margin-right: 10px;
     }
     div.mainp-box-image{
         flex-direction: column-reverse;
@@ -1752,7 +1774,7 @@ div.mainp-text-grid{
     }
     .main-more-btn-wr {
         display: block;
-        margin-top: 42px;
+        margin-top: 38px;
         margin-bottom: 50px;
         text-decoration: #fff underline;
         width: fit-content;
@@ -1991,6 +2013,9 @@ div.mainp-text-grid{
         margin-right: 0;
         max-width: 431px;
     }
+    .stock-item:nth-child(1) {
+        margin-bottom: 40px;
+    }
     .stock-img-description{
         max-width: 100%;
         padding: 0;
@@ -2107,6 +2132,9 @@ div.mainp-text-grid{
     }
 }
 @media only screen and (max-width: 991px){
+    .bar-container{
+        padding: 0 10px;
+    }
     .title {
         text-align: center;
         display: flex;
