@@ -118,7 +118,7 @@ body{
     margin-right: 15px;
 }
 .left-mainp-photos{
-   margin-bottom: 14px;
+   margin-bottom: 10px;
 }
 .grid-description {
     position: absolute;
@@ -1340,6 +1340,9 @@ div.mainp-text-grid{
 }
 .small-1{
     display: none;
+}
+.main-yellow{
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 1960px){
     .main-grid-container{
