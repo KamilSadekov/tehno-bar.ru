@@ -61,16 +61,20 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
-.bar-edge-item-1, .bar-edge-item-2 {
+.bar-edge-item-2 {
   max-width: 484px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  max-width: 393px;
 }
 .bar-edge-item-1 {
   order: 1;
+    max-width: 484px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
 }
 .bar-edge-item-2 {
   order: 3;
@@ -415,6 +419,11 @@ div.main-right-bottom {
   margin-bottom: 15px;
 }
 
+
+.sm-ph{
+    display: none;
+}
+
 .form-eq-wrapper {
   display: flex;
   align-items: flex-start;
@@ -503,13 +512,20 @@ div.main-right-bottom {
 .eq-form-box-1 {
   margin-bottom: 99px;
 }
-.use-materials-item-description,
 .bar-edge-description{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.use-materials-item-description,
+.bar-edge-description-3{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.example-container {
+    margin-bottom: 0;
 }
 @media screen and (max-width: 1790px) {
-  .main-left {
+  .main-left{
     display: flex;
   }
 
@@ -815,7 +831,7 @@ div.main-right-bottom {
     margin-bottom: 0;
   }
 }
-@media screen and (max-width: 743px) {
+@media screen and (max-width: 743px){
   .use-materials {
     display: flex;
     align-items: center;
@@ -825,7 +841,7 @@ div.main-right-bottom {
   }
 
   .use-materials-item-1,
-.use-materials-item-3 {
+  .use-materials-item-3 {
     margin-right: 0;
   }
 
@@ -857,7 +873,7 @@ div.main-right-bottom {
   }
 
   .bar-edge-item-1,
-.bar-edge-item-2 {
+  .bar-edge-item-2 {
     order: 1;
     margin-right: 0;
     margin-left: 0;
@@ -872,6 +888,7 @@ div.main-right-bottom {
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 558px) {
   .design-frame::before {
     width: 40px;
@@ -931,7 +948,7 @@ div.main-right-bottom {
   }
 
   .bar-edge-item-1,
-.bar-edge-item-2 {
+  .bar-edge-item-2 {
     margin-bottom: 40px;
   }
 
@@ -989,4 +1006,32 @@ form.bar-form{
 .storage-description-3 p {
   margin-bottom: 30px;
 }
+
+.bar-stand-description,
+.bar-edge-description{
+  padding: 0 10px;
+}
+.use-materials-item-description, .bar-edge-description-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ }
+
+@media screen and (max-width: 380px){
+  .features__icon{
+    margin-bottom: 15px;
+  }
+  .big-ph{
+    display: none;
+  }
+  .sm-ph{
+    display: inline-block;
+  }
+  .example_1 {
+    padding-top: 0;
+  }
+  .example-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }

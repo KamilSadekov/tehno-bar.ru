@@ -1262,6 +1262,15 @@ div.paragraph li:before {
     top: 7px;
     background: #28aeac;
 }
+a:hover .stock-img{
+    text-decoration: underline #e20514;
+}
+.right-text-wrapper a{
+    color: #000;
+}
+.right-text-wrapper a:hover h2{
+    color: #e20514;
+}
 div.paragraph li:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -1523,6 +1532,19 @@ div.mainp-text-grid{
     .right-text-wrapper{
         text-align: center;
         max-width: 423px;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-text-wrapper p {
+    font-size: 18px;
+    order: 3;
+    }
+    .stock span {
+    color: #a2a2a2;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    order: 2;
     }
     .stock-item{
         margin-bottom: 0;
@@ -1950,6 +1972,23 @@ div.mainp-text-grid{
     }
 }
 @media screen and (max-width: 1199px){
+    .right-text-wrapper{
+        text-align: center;
+        max-width: 423px;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-text-wrapper p {
+    font-size: 18px;
+    order: unset;
+    }
+    .stock span {
+    color: #a2a2a2;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    order: unset;
+    }
     .production{
         flex-direction: column;
         align-items: center;
@@ -2583,6 +2622,10 @@ div.mainp-text-grid{
     div.features__title{
         font-size: 18px;
     }
+    .main-grid-photos,
+    .images-grid{
+        padding: 0 10px;
+    }
 
 }
 @media screen and (max-width: 450px){
@@ -2844,6 +2887,9 @@ div.mainp-text-grid{
     .main-grid-photos {
         margin-bottom: 0px;
     }
+    .stock h2 {
+    margin-bottom: 0;
+}
 }
 @media screen and (max-width: 320px){
     .ben-list li::before {
