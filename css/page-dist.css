@@ -767,7 +767,6 @@ margin-bottom: 40px;
     text-transform: uppercase;
     opacity: 0.8;
 }
-
 }
 @media screen and (max-width: 991px){
   .place-item-description p{
@@ -1272,7 +1271,6 @@ div.eq-use-mat{
 .bar-stand p {
     font-size: 16px;
   }
-
   .other-elem-description div.bar-btn{
     width: 262px;
     padding: 16px 0;
