@@ -1725,7 +1725,7 @@ div.mainp-text-grid{
         display: none;
     }
     .main-right-bottom{
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     .first-right{
         display: none;
@@ -1744,6 +1744,8 @@ div.mainp-text-grid{
     }
     .right-bottom-last{
         max-width: unset;
+    }
+    .bottom-photo{
         margin-right: 10px;
     }
     div.left-mainp-photos{
