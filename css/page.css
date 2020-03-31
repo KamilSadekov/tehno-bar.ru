@@ -1575,6 +1575,9 @@ div.mainp-text-grid{
 
 }
 @media screen and (max-width: 1612px){
+    .that-photo{
+        margin-right: 10px;
+    }
     .bussiness-description {
         padding: 25px;
         max-width: 705px;
@@ -1744,9 +1747,6 @@ div.mainp-text-grid{
     }
     .right-bottom-last{
         max-width: unset;
-    }
-    .bottom-photo{
-        margin-right: 10px;
     }
     div.left-mainp-photos{
         display: flex;
@@ -2522,6 +2522,9 @@ div.mainp-text-grid{
     }
 }
 @media screen and (max-width: 558px){
+    .that-photo{
+        margin-right: 5px;
+    }
     div.ex-item-shape-text {
         margin-top: -60px;
     }
@@ -2710,9 +2713,6 @@ div.mainp-text-grid{
         padding: 17px 0;
     }
     .right-top-last {
-        margin-right: 5px;
-    }
-    .right-bottom-last {
         margin-right: 5px;
     }
     .main-right-top {
