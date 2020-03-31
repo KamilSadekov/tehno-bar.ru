@@ -1356,6 +1356,9 @@ div.mainp-text-grid{
 .main-yellow{
     margin-bottom: 10px;
 }
+.eq-production-item-3{
+    margin-bottom: 85px;
+}
 @media screen and (max-width: 1960px){
     .main-grid-container{
         padding: 0;
@@ -1413,6 +1416,9 @@ div.mainp-text-grid{
     }
     .first-item{
         display: none;
+    }
+    .eq-first-item{
+        display: block;
     }
 
     div.first-main-item{
@@ -1888,6 +1894,9 @@ div.mainp-text-grid{
 }
 
 @media screen and (max-width: 1315px){
+    .eq-production-item-3{
+    margin-bottom: 40px;
+}
     .arrow-item{
         margin-right: 0;
     }
@@ -1940,6 +1949,9 @@ div.mainp-text-grid{
     } */
 }
 @media screen and (max-width: 1290px){
+    .eq-first-item{
+        display: none;
+    }
     div.features-last::after{
         display: none;
     }
@@ -2630,6 +2642,9 @@ div.mainp-text-grid{
     .main-grid-photos,
     .images-grid{
         padding: 0 10px;
+    }
+    div.eq-description-des{
+        margin-bottom: 40px;
     }
 
 }
