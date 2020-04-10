@@ -1,0 +1,112 @@
+.design-btn {
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    min-width: 262px;
+    padding: 16px 0;
+    font-weight: 500;
+}
+.image-what-do,
+.text-what-do-item{
+    display: flex;
+}
+.image-what-do{
+    margin-right: 78px;
+    max-width: 892px;
+    align-items: center;
+}
+.small-images{
+    display: flex;
+    flex-direction: column;
+     margin-right: 9px;
+}
+.small-images-itex{
+    margin-bottom: 9px;
+}
+.last-small-ph,
+.text-what-do-item-last{
+    margin-bottom: 0;
+}
+.what-do-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.text-what-do-item{
+    align-items: center;
+}
+.text-what-do-item-image{
+    position: relative;
+    margin-right: 64px;
+}
+.text-what-do{
+    max-width: 609px;
+}
+.text-what-do-item-image img{
+    width: 82px;
+    height: 79px;
+}
+.text-what-do-item-image::after{
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #000;
+  height: 100%;
+  right: -32px;
+}
+.text-what-do-item{
+    margin-bottom: 26px;
+}
+.form-eq-wrapper{
+    display: flex;
+    align-items: center;
+}
+.more-black{
+    padding: 14px 0;
+}
+@media screen and (max-width: 1380px){
+   
+}
+@media screen and (max-width: 1199px){
+    .small-images{
+        flex-direction: row;
+        margin-right: 0;
+    }
+    .image-what-do{
+        flex-direction: column-reverse;
+        margin-right: 0;
+        margin-bottom: 83px;
+    }
+    .small-images-itex{
+        margin-bottom: 0;
+        margin-top: 13px;
+        margin-right: 13px;
+    }
+    .last-small-ph{
+        margin-right: 0;
+    }
+    .what-do-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 790px){
+    .image-what-do{
+        margin-right: -2rem;
+        margin-left: -2rem;
+    }
+    .example_2 {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 380px){
+    .small-images-itex {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    .image-what-do {
+        margin-bottom: 40px;
+    }
+    .last-small-ph{
+        margin-right: 0;
+    }
+}
