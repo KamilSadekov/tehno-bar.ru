@@ -668,23 +668,22 @@
     <div class="design_description design-frame">
         <h2>
             <span class="design_main_text">
-                <span class="light-design">изготовление мебели<br class="first-br-design"> 
-                    любой сложностин
+                <span class="light-design">СОЗДАЕМ КОММЕРЧЕСКУЮ
                      <br class="first-br-design"> 
                     <!--<br class="second-br-design"><br> -->
                 </span>
                 <span class="weight-design">
-                    на заказ
+                    МЕБЕЛЬ ДЛЯ ВАШЕГО БИЗНЕСА
                 </span>
             </span>
         </h2>
         <span class="design_description">
             <p>
-                Рыбатекст используется дизайнерами, проектировщиками
-                и фронтендерами, когда нужно быстро заполнить макеты
-                или прототипы содержимым. Это тестовый контент, который
-                не должен нести никакого смысла, лишь показать наличие
-                самого текста или продемонстрироватьтипографику в деле.
+				Компания ТехноБар разработает и произведет уникальную 
+				мебель для любого проекта. Мы превращаем обычную мебель 
+				в инструмент, который позволит Вам поднять продажи! Клиенты 
+				всегда будут с комфортом посещать Ваши заведения и проводить 
+				в них больше времени! Что может быть лучше для бизнеса?
             </p>
         </span>
     </div>
@@ -698,74 +697,85 @@
     <div class="container container-what-do">
         <div class="title"><span>что мы делаем</span></div>
         <div class="what-do-wrapper">
-      <div class="image-what-do">
-        <div class="small-images">
-           <div class="small-images-itex">
-               <img src="images/small-.jpg" alt="">
-           </div>
-           <div class="small-images-itex">
-               <img src="images/small-.jpg" alt="">
-           </div>
-           <div class="small-images-itex">
-               <img src="images/small-.jpg" alt="">
-           </div>
-           <div class="small-images-itex">
-               <img src="images/small-.jpg" alt="">
-           </div>
-           <div class="small-images-itex last-small-ph">
-               <img src="images/small-.jpg" alt="">
-           </div>
-        </div>
-        <div class="big-image">
-             <div class="big-image-item">
-                 <img src="images/big.jpg" alt="">
-             </div>
-        </div>
-      </div>
+        <div class="image-what-do">
+			<div><img id="largeImg" src="img/order/large.jpg" alt="Large image"></div>
+
+			<div id="thumbs">
+			  <div class="images-item">
+				<a href="img/order/what-do-1-big.jpg" title="Image 2"><img src="img/order/what-do-1.jpg"></a>
+			  </div>
+			  <div class="images-item">
+				<a href="img/order/what-do-2-big.jpg" title="Image 3"><img src="img/order/what-do-2.jpg"></a>
+			  </div>
+			  <div class="images-item">
+				<a href="img/order/what-do-3-big.jpg" title="Image 4"><img src="img/order/what-do-3.jpg"></a>
+			  </div>
+			  <div class="images-item">
+				<a href="img/order/what-do-4-big.jpg" title="Image 5"><img src="img/order/what-do-4.jpg"></a>
+			  </div>
+			  <div class="images-item last-image-item">
+				<a href="img/order/what-do-5-big.jpg" title="Image 6"><img src="img/order/what-do-5.jpg"></a>
+			  </div>
+			</div>
+		</div>
+			<script>
+				thumbs.onclick = function(event) {
+				  let thumbnail = event.target.closest('a');
+			
+				  if (!thumbnail) return;
+				  showThumbnail(thumbnail.href, thumbnail.title);
+				  event.preventDefault();
+				}
+			
+				function showThumbnail(href, title) {
+				  largeImg.src = href;
+				  largeImg.alt = title;
+				}
+			  </script>
       <div class="text-what-do">
           <div class="text-what-do-item">
               <div class="text-what-do-item-image">
-                  <img src="svg/feature_2.svg" alt="">
-              </div>
+                  <img src="img/order/1-smart.svg" alt="">
+			  </div>
+			  <div class="line"></div>
               <div class="text-what-do-item-text">
-                Рыбатекст используется дизайнерами, проектировщиками
-                и фронтендерами, когда нужно быстро заполнить макеты                 
+				Изготовление мебели по Вашему дизайн-проекту                 
               </div>
           </div>
           <div class="text-what-do-item">
             <div class="text-what-do-item-image">
-                <img src="svg/feature_2.svg" alt="">
-            </div>
+                <img src="img/order/2-smart.svg" alt="">
+			</div>
+			<div class="line"></div>
             <div class="text-what-do-item-text">
-              Рыбатекст используется дизайнерами, проектировщиками
-              и фронтендерами, когда нужно быстро заполнить макеты                 
+				Изготовление мебели по картинке или фотографии 
             </div>
         </div>
         <div class="text-what-do-item">
             <div class="text-what-do-item-image">
-                <img src="svg/feature_2.svg" alt="">
-            </div>
+                <img src="img/order/3-smart.svg" alt="">
+			</div>
+			<div class="line"></div>
             <div class="text-what-do-item-text">
-              Рыбатекст используется дизайнерами, проектировщиками
-              и фронтендерами, когда нужно быстро заполнить макеты                 
+				Изготовление высококачественных реплик 
             </div>
         </div>
         <div class="text-what-do-item">
             <div class="text-what-do-item-image">
-                <img src="svg/feature_2.svg" alt="">
-            </div>
+                <img src="img/order/4-smart.svg" alt="">
+			</div>
+			<div class="line"></div>
             <div class="text-what-do-item-text">
-              Рыбатекст используется дизайнерами, проектировщиками
-              и фронтендерами, когда нужно быстро заполнить макеты                 
+				Изготовление пилотных образцов  
             </div>
         </div>
         <div class="text-what-do-item text-what-do-item-last">
             <div class="text-what-do-item-image">
-                <img src="svg/feature_2.svg" alt="">
-            </div>
+                <img src="img/order/5-smart.svg" alt="">
+			</div>
+			<div class="line"></div>
             <div class="text-what-do-item-text">
-              Рыбатекст используется дизайнерами, проектировщиками
-              и фронтендерами, когда нужно быстро заполнить макеты                 
+				Большой выбор материалов и расцветок        
             </div>
         </div>
       </div>
@@ -781,93 +791,78 @@
     </a>
     </div>
 
-    <div class="container example-container">
-        <div class="title">
-            <span>
-                ПРИМЕРЫ РАБОТ
-            </span>
-        </div>
-        <div class="example_1">
-            <div class="example-wrap">
-              <div class="ex-item">
-                  <img src="img/guss.jpg" alt="example">
-                  <div class="example-text">
-                  <p>
-                      <span>Рыбатекст<br> используется дизайнерами,</span>
-                      проектировщиками и фронтендерами, 
-                      когда нужно быстро заполнить макеты
-                      или прототипы содержимым. 
-                  </p>
-                  </div>
-                  <div class="more-button">
-                    <a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
-                </div>
-              </div>
-              <div class="ex-item-shape">
-                  <div class="ex-item-shape-photo">
-                <img src="img/BusinessClub.png" alt="example">
-                  </div>
-                <div class="ex-item-shape-text">
-                    
-                <p>
-                    <span>Рыбатекст<br> используется дизайнерами,</span>
-                    проектировщиками и фронтендерами, 
-                    когда нужно быстро заполнить макеты
-                    или прототипы содержимым. 
-                </p>
-    
-                <div class="more-button">
-                    <a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
-                </div>
-               </div>
-              </div>
-            </div>
-              <div class="ex-item">
-                <img src="img/design-hotel.jpg" alt="example">
-                <div class="example-text">
-                <p>
-                    <span>Рыбатекст<br> используется дизайнерами,</span>
-                    проектировщиками и фронтендерами, 
-                    когда нужно быстро заполнить макеты
-                    или прототипы содержимым. 
-                </p>
-                </div>
-                <div class="more-button">
-                    <a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
-                </div>
-              </div>
-        </div>
-        <div class="example_2">
-            <div class="example_item example-2-item">
-                <img src="img/villa1.jpg" alt="example">
-                <div class="example-text">
-                <p>
-                    <span>Рыбатекст<br> используется дизайнерами,</span>
-                    проектировщиками и фронтендерами, 
-                    когда нужно быстро заполнить макеты
-                    или прототипы содержимым. 
-                </p>
-                </div>
-                <div class="more-button">
-                    <a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
-                </div>
-            </div>
-            <div class="example_item">
-                <img src="img/park.jpg" alt="example">
-                <div class="example-text">
-                <p>
-                    <span>Рыбатекст<br> используется дизайнерами,</span>
-                    проектировщиками и фронтендерами, 
-                    когда нужно быстро заполнить макеты
-                    или прототипы содержимым. 
-                </p>
-                </div>
-                <div class="more-button">
-                    <a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container example-container">
+		<div class="title">
+			<span>
+				ПРИМЕРЫ РАБОТ
+			</span>
+		</div>
+		<div class="example_1 eq-example-1">
+			<div class="example-wrap">
+			  <div class="ex-item">
+				  <img src="img/equipment/Ресторан Fish me.jpg" alt="example">
+				  <div class="example-text">
+				  <p>
+                  Венское Кафе
+				  </p>
+				  </div>
+				  <div class="more-button">
+					<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+				</div>
+			  </div>
+			  <div class="ex-item-shape">
+				  <div class="ex-item-shape-photo eq-item-shape-photo">
+					 <img src="img/test-photo/main-shape.png" alt="example">
+				  </div>
+				<div class="ex-item-shape-text">
+					
+				<p>
+					ТЦ «Авиапарк»
+				</p>
+	
+				<div class="more-button">
+					<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+				</div>
+			   </div>
+			  </div>
+			</div>
+			  <div class="ex-item">
+				<img src="img/equipment/Шоу рум.jpg" alt="example">
+				<div class="example-text">
+				<p>
+                  Шоу-рум 
+				</p>
+				</div>
+				<div class="more-button">
+					<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+				</div>
+			  </div>
+		</div>
+		<div class="example_2 example-eq-2">
+			<div class="example_item example-2-item">
+				<img src="img/equipment/Стадион Спартак.jpg" alt="example">
+				<div class="example-text">
+				<p>
+					Стадион Спартак
+				</p>
+				</div>
+				<div class="more-button">
+					<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+				</div>
+			</div>
+			<div class="example_item">
+				<img src="img/equipment/Известия холл.jpg" alt="example">
+				<div class="example-text">
+				<p>
+					Известия холл 
+				</p>
+				</div>
+				<div class="more-button">
+					<a href="#"><div class="more-black">ПОДРОБНЕЕ</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="title pre-footer eq-pre-footer"> <span class="pre-footer-title eq-pre-footer">
