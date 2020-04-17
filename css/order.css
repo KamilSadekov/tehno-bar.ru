@@ -68,6 +68,8 @@
 }
 .text-what-do-item-text{
     max-width: 460px;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .line{
@@ -180,6 +182,10 @@
     }
     .image-what-do {
         margin-bottom: 40px;
+    }
+    .text-what-do-item-text{
+        font-size: 18px;
+        font-weight: 300;
     }
 }
 @media screen and (max-width: 380px){
