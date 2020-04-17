@@ -10,6 +10,14 @@
 .text-what-do-item{
     display: flex;
 }
+.active-image::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 2px #e20514;
+    z-index: 100;
+}
 .image-what-do{
     margin-right: 78px;
     max-width: 892px;
@@ -28,6 +36,9 @@
 .text-what-do-item-last{
     margin-bottom: 0;
 }
+.text-what-do-item-image{
+    position: relative;
+}
 .what-do-wrapper{
     display: flex;
     justify-content: center;
@@ -38,12 +49,21 @@
 .text-what-do-item-image{
     position: relative;
     margin-right: 64px;
+    max-width: 82px;
+}
+.text-what-do-item-image::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    margin-left: 32px;
 }
 .text-what-do{
     max-width: 609px;
 }
 .text-what-do-item-image img{
-    width: 82px;
+    max-width: 82px;
     height: 79px;
 }
 .text-what-do-item-text{
@@ -77,6 +97,8 @@
 .images-item{
     margin-bottom: 9px;
     margin-right: 9px;
+    position: relative;
+    cursor: pointer;
 }
 .last-image-item{
     margin-bottom: 0;
@@ -128,10 +150,36 @@
     .example_2 {
         margin-bottom: 0;
     }
+    .image-what-do{
+        margin-bottom: 82px;
+    }
 }
 @media screen and (max-width: 460px){
     .line{
         left: 100px;
+    }
+    .image-what-do{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .text-what-do-item-image::after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: #000;
+        margin-left: 13px;
+    }
+    .text-what-do-item-image {
+        margin-right: 26px;
+        max-width: 82px;
+    }
+    .text-what-do-item-image img {
+        max-width: 55.48px;
+        height: auto;
+    }
+    .image-what-do {
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 380px){
@@ -148,4 +196,5 @@
     .line{
         left: 85px;
     }
+
 }
